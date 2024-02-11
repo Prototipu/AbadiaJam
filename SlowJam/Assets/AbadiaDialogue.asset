@@ -54,7 +54,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: Adso
+      value: Adso de Melk
       type: 0
       typeString: 
     portrait: {fileID: 0}
