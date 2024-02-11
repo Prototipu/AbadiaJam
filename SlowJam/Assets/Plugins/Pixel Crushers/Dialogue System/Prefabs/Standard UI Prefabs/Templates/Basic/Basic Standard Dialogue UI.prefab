@@ -1338,10 +1338,10 @@ RectTransform:
   m_Children:
   - {fileID: 22487244}
   - {fileID: 22429670}
-  - {fileID: 22461342}
-  - {fileID: 22418282}
   - {fileID: 22493478}
   - {fileID: 22490548}
+  - {fileID: 22461342}
+  - {fileID: 22418282}
   m_Father: {fileID: 22496680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3774,7 +3774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.06132078, b: 0.06132078, a: 1}
+  m_Color: {r: 1, g: 0.06132078, b: 0.06132078, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4476,7 +4476,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11455562}
   m_HandleRect: {fileID: 22498406}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
