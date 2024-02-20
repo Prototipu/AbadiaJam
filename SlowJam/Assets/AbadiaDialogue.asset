@@ -339,11 +339,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Description
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Actor
         value: 2
         type: 5
@@ -355,16 +355,16 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Dialogue Text
         value: "<color=\"yellow\"><link=\"Adso\">Adso</link></color>, \xBFrealmente
           es necesario que separemos la capa de las cebollas?"
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       - title: Sequence
         value: 
         type: 0
-        typeString: CustomFieldType_Text
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 289.2048
+        x: 288
         y: 134
         width: 160
         height: 30
@@ -421,7 +421,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: "He estado ocupado, pero podr\xEDa ser peor."
+        value: He estado ocupado.
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -476,11 +476,11 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: "A ti que te importa ni\xF1o"
+        value: "Buenos d\xEDas."
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "A ti que te importa ni\xF1o"
+        value: "Buenos d\xEDas."
         type: 0
         typeString: 
       - title: Sequence
@@ -531,11 +531,11 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: Me duelen las piernas
+        value: Hoola
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Me duelen las piernas
+        value: Hoola
         type: 0
         typeString: 
       - title: Sequence
@@ -590,7 +590,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Me la pela, vaya con dios.
+        value: asfasdfafasfasef
         type: 0
         typeString: 
       - title: Sequence
@@ -645,7 +645,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ves con Dios.
+        value: 42626262462
         type: 0
         typeString: 
       - title: Sequence
@@ -676,8 +676,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.83
+    canvasScrollPosition: {x: 0.000030517578, y: 57.746483}
+    canvasZoom: 1.4199996
   syncInfo:
     syncActors: 0
     syncItems: 0
