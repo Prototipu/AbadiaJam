@@ -12,15 +12,17 @@ public class ConfesionarioManager : MonoBehaviour
     public GameObject CurrentNPC;
     int CurrentNPCIndex = 0;
 
+    public bool PrimerDialogoHecho = false;
+    public bool MasConfesoresDialogoHecho = false;
+    public bool FinConfesionesDialogoHecho = false;
 
-
-    public enum State {DefinirPersoanje, Entrar, Conversar, Salir }
+    public enum State {None, InicioDia, DefinirPersoanje, Entrar, Conversar, Salir, MasConfesores, FinConfesiones }
     public State currentState = State.DefinirPersoanje;
 
     // Start is called before the first frame update
     void Start()
     {
-        CurrentNPC = AllNPCs[0];
+        //CurrentNPC = AllNPCs[0];
     }
 
     // Update is called once per frame
@@ -28,6 +30,13 @@ public class ConfesionarioManager : MonoBehaviour
     {
         switch (currentState) 
         {
+            case State.None:
+                ChangeState(State.InicioDia);
+                break;
+            case State.InicioDia:
+                if (PrimerDialogoHecho)
+                    ChangeState(State.DefinirPersoanje);
+                break;
             case State.DefinirPersoanje:
                 //Definir los valores del personaje que entra en el confesionario
                 CurrentNPC = AllNPCs[CurrentNPCIndex];
@@ -55,13 +64,24 @@ public class ConfesionarioManager : MonoBehaviour
 
                 if (CurrentNPCIndex == AllNPCs.Count)
                 {
-                    Debug.Log("Se acabó");
+                    ChangeState(State.FinConfesiones);
                 }
                 else
                 {
-                    ChangeState(State.DefinirPersoanje);
+                    ChangeState(State.MasConfesores);
                 }
 
+                break;
+            case State.MasConfesores:
+                if (MasConfesoresDialogoHecho)
+                    ChangeState(State.DefinirPersoanje);
+                break;
+            case State.FinConfesiones:
+                if (FinConfesionesDialogoHecho)
+                {
+                    //Lógica de salir del confesionario
+                    Debug.Log("Se acabó el día de confesarse");
+                }
                 break;
         }
     }
@@ -71,6 +91,13 @@ public class ConfesionarioManager : MonoBehaviour
         //Exit Logic
         switch(currentState)
         {
+            case State.None:
+
+                break;
+            case State.InicioDia:
+                MasConfesoresDialogoHecho = false;
+                FinConfesionesDialogoHecho = false;
+                break;
             case State.DefinirPersoanje:
                 break;
 
@@ -84,11 +111,24 @@ public class ConfesionarioManager : MonoBehaviour
             case State.Salir:
 
                 break;
+            case State.MasConfesores:
+                MasConfesoresDialogoHecho = false;
+                FinConfesionesDialogoHecho = false;
+                break;
+            case State.FinConfesiones:
+
+                break;
         }
 
         //Enter Logic
         switch (newState)
         {
+            case State.None:
+
+                break;
+            case State.InicioDia:
+                StartConversation("Inicio Dia", Player.transform, Player.transform);
+                break;
             case State.DefinirPersoanje:
 
                 break;
@@ -105,6 +145,14 @@ public class ConfesionarioManager : MonoBehaviour
                 CurrentNPC.GetComponent<NPCEnConfesionario>().SalirConfesionario();
 
                 break;
+            case State.MasConfesores:
+                StartConversation("Mas confesores", Player.transform, Player.transform);
+                MasConfesoresDialogoHecho = false;
+                break;
+            case State.FinConfesiones:
+                StartConversation("Fin confesiones", Player.transform, Player.transform);
+                FinConfesionesDialogoHecho = false;
+                break;
         }
 
         currentState = newState;
@@ -114,4 +162,12 @@ public class ConfesionarioManager : MonoBehaviour
     {
         DialogueManager.StartConversation(conv, actor, conversant);
     }
+
+    public void FinDialogoPlayer()
+    {
+        PrimerDialogoHecho = true;
+        MasConfesoresDialogoHecho = true;
+        FinConfesionesDialogoHecho = true;
+    }
+    
 }
