@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: PRUEBA_MONJE
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.504, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 14
-      height: 30
+      width: 125
+      height: 29
     spriteID: b6158730179d35a448a5063f5fc1e162
     spriteBone: []
     spriteOutline: []
@@ -155,8 +155,8 @@ ScriptedImporter:
       cellRect:
         x: 1
         y: 0
-        width: 14
-        height: 30
+        width: 125
+        height: 29
       spriteId: b6158730179d35a448a5063f5fc1e162
     linkedCells: []
     parentIndex: -1
@@ -164,4 +164,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 32}
+  canvasSize: {x: 128, y: 32}
