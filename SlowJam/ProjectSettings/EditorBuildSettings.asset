@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Exploracion.unity
+    path: Assets/Scenes/Escenas de conversacion/Act1_1Conversacion.unity
     guid: 9f2d9025fe6fa4444aeadf7a986c17a3
   - enabled: 1
     path: Assets/Scenes/SegundaParte.unity
