@@ -5794,6 +5794,18 @@ PrefabInstance:
       propertyPath: onBegin.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7863245464740821944, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
+      propertyPath: m_fontSize
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863245464740821944, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863245464740821944, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8639407886626394306, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
       propertyPath: m_Name
       value: UI Abadia
@@ -5805,6 +5817,14 @@ PrefabInstance:
     - target: {fileID: 8639407886637518854, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
       propertyPath: m_PreserveAspect
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639407886637572320, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
+      propertyPath: m_VerticalFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639407886637585216, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8639407886646389812, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -6008,7 +6028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8639407886646491954, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 232.8377
       objectReference: {fileID: 0}
     - target: {fileID: 8639407886646499224, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
       propertyPath: m_AnchorMax.x
