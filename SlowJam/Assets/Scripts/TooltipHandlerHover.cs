@@ -44,7 +44,7 @@ namespace ChristinaCreatesGames.Typography.TooltipForTMP
                 {
                     if (!tooltipContainer.gameObject.activeInHierarchy)
                     {
-                        tooltipContainer.transform.position = mousePos +  new Vector3(0, distanciaTooltip, 0); // This offset is an example, you'll probably need to find your own best fitting value.
+                        //tooltipContainer.transform.position = mousePos +  new Vector3(0, distanciaTooltip, 0); // This offset is an example, you'll probably need to find your own best fitting value.
                         tooltipContainer.gameObject.SetActive(true);
                     }
                     
