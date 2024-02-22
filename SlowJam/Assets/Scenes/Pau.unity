@@ -289,6 +289,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 986749022}
+        m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+        m_MethodName: PasarValorBarrasGrandes
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &43570070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1177,7 +1189,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.472
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1736,7 +1748,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.674
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3579,7 +3591,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.472
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4112,7 +4124,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.674
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4694,6 +4706,18 @@ MonoBehaviour:
       - m_Target: {fileID: 986749022}
         m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
         m_MethodName: CambiarTextoCartelGrande
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 986749022}
+        m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+        m_MethodName: PasarValorBarrasGrandes
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5710,6 +5734,23 @@ MonoBehaviour:
   - {fileID: 272470547}
   - {fileID: 1138007559}
   - {fileID: 163247632}
+  Barras:
+  - {fileID: 1901077041}
+  - {fileID: 530294575}
+  - {fileID: 1772419428}
+  - {fileID: 1692425705}
+  - {fileID: 225284036}
+  - {fileID: 1254450345}
+  - {fileID: 692763852}
+  - {fileID: 1851057469}
+  - {fileID: 2108236350}
+  - {fileID: 1729090541}
+  - {fileID: 940529422}
+  - {fileID: 212066462}
+  BarrasGrandes:
+  - {fileID: 256812736}
+  - {fileID: 2044109735}
+  - {fileID: 1309599799}
   CartelGrande: {fileID: 2023359206}
   TextoCartelGrande: {fileID: 2032723495}
   TextosCartelGrandeHemanaLuzei:
@@ -5798,6 +5839,54 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: CurrentBarra
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: AumentarBarra
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.3
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: CurrentBarra
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: AumentarBarra
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.6
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -5938,6 +6027,78 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 1
             m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: CurrentBarra
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: AumentarBarra
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.15
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: CurrentBarra
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: AumentarBarra
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.65
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: CurrentBarra
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 986749022}
+          m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+          m_MethodName: AumentarBarra
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0.9
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -7686,6 +7847,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 986749022}
+        m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+        m_MethodName: PasarValorBarrasGrandes
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1364330316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8840,7 +9013,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.674
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9670,7 +9843,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.472
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9871,7 +10044,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.674
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10071,6 +10244,18 @@ MonoBehaviour:
       - m_Target: {fileID: 986749022}
         m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
         m_MethodName: CambiarTextoCartelGrande
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 986749022}
+        m_TargetAssemblyTypeName: CartelesManager, Assembly-CSharp
+        m_MethodName: PasarValorBarrasGrandes
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10721,7 +10906,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.472
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

@@ -12,6 +12,9 @@ public class CartelesManager : MonoBehaviour
     public List<GameObject> Botones;
     public List<GameObject> TextosPequenos;
 
+    public List<GameObject> Barras;
+    public List<GameObject> BarrasGrandes;
+
     public GameObject CartelGrande;
     public GameObject TextoCartelGrande;
 
@@ -21,6 +24,8 @@ public class CartelesManager : MonoBehaviour
 
     int currentCartel;
     int valorTexto1, valorTexto2, valorTexto3, valorTexto4;
+
+    int currentBarra;
 
 
     public void ShowCartel(int num)
@@ -103,4 +108,41 @@ public class CartelesManager : MonoBehaviour
         valorTexto4 = i;
     }
 
+    public void CurrentBarra(int i)
+    {
+        currentBarra = i;
+    }
+
+    public void AumentarBarra(float f)
+    {
+        Barras[currentBarra].GetComponent<Slider>().value = Barras[currentBarra].GetComponent<Slider>().value + f;
+    }
+
+    public void PasarValorBarrasGrandes(int i)
+    {
+        if (i == 0) 
+        {
+            BarrasGrandes[0].GetComponent <Slider>().value = Barras[0].GetComponent<Slider>().value;
+            BarrasGrandes[1].GetComponent <Slider>().value = Barras[1].GetComponent<Slider>().value;
+            BarrasGrandes[2].GetComponent <Slider>().value = Barras[2].GetComponent<Slider>().value;
+        }
+        else if (i == 1)
+        {
+            BarrasGrandes[0].GetComponent<Slider>().value = Barras[3].GetComponent<Slider>().value;
+            BarrasGrandes[1].GetComponent<Slider>().value = Barras[4].GetComponent<Slider>().value;
+            BarrasGrandes[2].GetComponent<Slider>().value = Barras[5].GetComponent<Slider>().value;
+        }
+        else if(i == 2)
+        {
+            BarrasGrandes[0].GetComponent<Slider>().value = Barras[6].GetComponent<Slider>().value;
+            BarrasGrandes[1].GetComponent<Slider>().value = Barras[7].GetComponent<Slider>().value;
+            BarrasGrandes[2].GetComponent<Slider>().value = Barras[8].GetComponent<Slider>().value;
+        }
+        else
+        {
+            BarrasGrandes[0].GetComponent<Slider>().value = Barras[9].GetComponent<Slider>().value;
+            BarrasGrandes[1].GetComponent<Slider>().value = Barras[10].GetComponent<Slider>().value;
+            BarrasGrandes[2].GetComponent<Slider>().value = Barras[11].GetComponent<Slider>().value;
+        }
+    }
 } 
