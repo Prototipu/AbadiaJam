@@ -34,22 +34,21 @@ public class CartelesManager : MonoBehaviour
         Botones[num].SetActive(true);
 
         currentCartel = num;
-        //Debug.Log(currentCartel);
     }
 
     public void CambiarTextoPequeno(string texto)
     {
-        Debug.Log(currentCartel);
 
         TextosPequenos[currentCartel].GetComponent<TMP_Text>().text = texto;
-        Debug.Log(texto + "eeeeeeeee");
     }
 
+    //Hace aparecer el cartel grande
     public void ActivarCartelGrande(bool t)
     {
         CartelGrande.SetActive(t);
     } 
 
+    //Cambia el texto del cartel grande (cuando se selecciona uno pequeño) por el que debe salir respecto a la confesion. Utiliza las funciones "ValorTextoX"
     public void CambiarTextoCartelGrande (int TextoAMostrar)
     {
         if (TextoAMostrar == 0)
@@ -70,27 +69,7 @@ public class CartelesManager : MonoBehaviour
         }
     }
 
-    public void SePuedenSeleccionarCarteles()
-    {
-        for (int i = 0; i < Botones.Count; i++)
-        {
-            Botones[i].SetActive(true);
-        }
-    }
-
-    public void EsconderTodosLoscarteles()
-    {
-        for (int i = 0; i < Botones.Count; i++)
-        {
-            Botones[i].SetActive(false);
-        }
-
-        for (int i = 0; i < Carteles.Count; i++)
-        {
-            Carteles[i].SetActive(false);
-        }
-    }
-
+    //Estas cuatro funciones guardan un numero que equivale a la confesión respectiva para usarlo en la funcion "CambiarTextoCartelGrande"
     public void ValorTexto1(int i)
     {
         valorTexto1 = i;
@@ -108,16 +87,46 @@ public class CartelesManager : MonoBehaviour
         valorTexto4 = i;
     }
 
+    //Activa la seleccion del cartel
+    public void SePuedenSeleccionarCarteles()
+    {
+        for (int i = 0; i < Botones.Count; i++)
+        {
+            Botones[i].SetActive(true);
+        }
+    }
+
+    //Se esconden todos los carteles cuando se va el personaje que se esta confesando
+    public void EsconderTodosLoscarteles()
+    {
+        for (int i = 0; i < Botones.Count; i++)
+        {
+            Botones[i].SetActive(false);
+        }
+
+        for (int i = 0; i < Carteles.Count; i++)
+        {
+            Carteles[i].SetActive(false);
+        }
+    }
+
+    
+
+ 
+    //Esta funcion guarda en una variable la barra la cual sera modificada con la siguiente funcion
     public void CurrentBarra(int i)
     {
         currentBarra = i;
     }
 
+    //Esta funcion aumenta el valor de la barra con el valor que se le pasa. 
     public void AumentarBarra(float f)
     {
-        Barras[currentBarra].GetComponent<Slider>().value = Barras[currentBarra].GetComponent<Slider>().value + f;
+        //Barras[currentBarra].GetComponent<Slider>().value = Barras[currentBarra].GetComponent<Slider>().value + f;
+        Barras[currentBarra].GetComponent<RellenoBarras>().RellenarBarra(f);
     }
 
+    //Esta funcion pasa al cartel grande los valores de las barras del cartel pequeño que se haya seleccionado 
     public void PasarValorBarrasGrandes(int i)
     {
         if (i == 0) 
