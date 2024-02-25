@@ -1,0 +1,236 @@
+{
+  "passages": [
+    {
+      "text": "Adso: (Que frio ha sido todo.) |(Me pregunto como estará Gaudenz al respecto.)\n[[((Con Dios, fraile Adso.))]]",
+      "links": [
+        {
+          "name": "((Con Dios, fraile Adso.))",
+          "link": "((Con Dios, fraile Adso.))",
+          "pid": "2"
+        }
+      ],
+      "name": "Untitled Passage",
+      "pid": "1",
+      "position": {
+        "x": "800",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Luzei: Con Dios, fraile Adso.\n[[((Con Dios, hermana Luzei.))]]",
+      "links": [
+        {
+          "name": "((Con Dios, hermana Luzei.))",
+          "link": "((Con Dios, hermana Luzei.))",
+          "pid": "3"
+        }
+      ],
+      "name": "((Con Dios, fraile Adso.))",
+      "pid": "2",
+      "position": {
+        "x": "925",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Adso: ...\n[[((¿Fraile Adso?))]]",
+      "links": [
+        {
+          "name": "((¿Fraile Adso?))",
+          "link": "((¿Fraile Adso?))",
+          "pid": "4"
+        }
+      ],
+      "name": "((Con Dios, hermana Luzei.))",
+      "pid": "3",
+      "position": {
+        "x": "1075",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Luzei: ¿Fraile Adso?\n[[((Ah, perdonad, hermana Luzei. No os he escuchado, con Dios.))]]",
+      "links": [
+        {
+          "name": "((Ah, perdonad, hermana Luzei. No os he escuchado, con Dios.))",
+          "link": "((Ah, perdonad, hermana Luzei. No os he escuchado, con Dios.))",
+          "pid": "5"
+        }
+      ],
+      "name": "((¿Fraile Adso?))",
+      "pid": "4",
+      "position": {
+        "x": "1200",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Adso: Ah, perdonad, hermana Luzei. No os he escuchado, con Dios.\n[[((El abad me ha dicho que no os olvidéis que debéis seguir confesando.))]]",
+      "links": [
+        {
+          "name": "((El abad me ha dicho que no os olvidéis que debéis seguir confesando.))",
+          "link": "((El abad me ha dicho que no os olvidéis que debéis seguir confesando.))",
+          "pid": "6"
+        }
+      ],
+      "name": "((Ah, perdonad, hermana Luzei. No os he escuchado, con Dios.))",
+      "pid": "5",
+      "position": {
+        "x": "1325",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Luzei: El abad me ha dicho que la hora de la confesión será en breves. |No os olvidéis.\n[[((¿Aún con todo lo que acaba de ocurrir?))]]\n[[((No me he olvidado, no os preocupéis.))]]\n[[(Hoy es la fecha de las prisas, por lo que veo.)]]",
+      "links": [
+        {
+          "name": "((¿Aún con todo lo que acaba de ocurrir?))",
+          "link": "((¿Aún con todo lo que acaba de ocurrir?))",
+          "pid": "8"
+        },
+        {
+          "name": "((No me he olvidado, no os preocupéis.))",
+          "link": "((No me he olvidado, no os preocupéis.))",
+          "pid": "7"
+        },
+        {
+          "name": "(Hoy es la fecha de las prisas, por lo que veo.)",
+          "link": "(Hoy es la fecha de las prisas, por lo que veo.)",
+          "pid": "9"
+        }
+      ],
+      "name": "((El abad me ha dicho que no os olvidéis que debéis seguir confesando.))",
+      "pid": "6",
+      "position": {
+        "x": "1500",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Adso: No me he olvidado, nos os preocupéis.\n[[((Bien. Es un dia delicado, pero estad ''atento'' con vuestros hermanos y hermanas.))]]",
+      "links": [
+        {
+          "name": "((Bien. Es un dia delicado, pero estad ''atento'' con vuestros hermanos y hermanas.))",
+          "link": "((Bien. Es un dia delicado, pero estad ''atento'' con vuestros hermanos y hermanas.))",
+          "pid": "12"
+        }
+      ],
+      "name": "((No me he olvidado, no os preocupéis.))",
+      "pid": "7",
+      "position": {
+        "x": "1625",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Adso: ¿Aún con todo lo que acaba de ocurrir?\n[[((Especialmente con lo que acaba de ocurrir.))]]",
+      "links": [
+        {
+          "name": "((Especialmente con lo que acaba de ocurrir.))",
+          "link": "((Especialmente con lo que acaba de ocurrir.))",
+          "pid": "11"
+        }
+      ],
+      "name": "((¿Aún con todo lo que acaba de ocurrir?))",
+      "pid": "8",
+      "position": {
+        "x": "1500",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Adso: Hoy es la fecha de las prisas, por lo que veo.\n[[((Las confesiones son importantes, Adso. Solo pido que estéis atento a ellas.))]]",
+      "links": [
+        {
+          "name": "((Las confesiones son importantes, Adso. Solo pido que estéis atento a ellas.))",
+          "link": "((Las confesiones son importantes, Adso. Solo pido que estéis atento a ellas.))",
+          "pid": "10"
+        }
+      ],
+      "name": "(Hoy es la fecha de las prisas, por lo que veo.)",
+      "pid": "9",
+      "position": {
+        "x": "1375",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Luzei: Las confesiones son importantes, Adso. Solo pido que estéis ''atento'' a ellas.\n[[(Nos vemos pronto, Adso. Con Dios.)]]",
+      "links": [
+        {
+          "name": "(Nos vemos pronto, Adso. Con Dios.)",
+          "link": "(Nos vemos pronto, Adso. Con Dios.)",
+          "pid": "13"
+        }
+      ],
+      "name": "((Las confesiones son importantes, Adso. Solo pido que estéis atento a ellas.))",
+      "pid": "10",
+      "position": {
+        "x": "1375",
+        "y": "575"
+      }
+    },
+    {
+      "text": "Luzei: ''Especialmente'' con lo que acaba de ocurrir.\n[[(Nos vemos pronto, Adso. Con Dios.)]]",
+      "links": [
+        {
+          "name": "(Nos vemos pronto, Adso. Con Dios.)",
+          "link": "(Nos vemos pronto, Adso. Con Dios.)",
+          "pid": "13"
+        }
+      ],
+      "name": "((Especialmente con lo que acaba de ocurrir.))",
+      "pid": "11",
+      "position": {
+        "x": "1500",
+        "y": "575"
+      }
+    },
+    {
+      "text": "Luzei: Es un dia delicado, pero estad ''atento'' con vuestros hermanos y hermanas.\n[[(Nos vemos pronto, Adso. Con Dios.)]]",
+      "links": [
+        {
+          "name": "(Nos vemos pronto, Adso. Con Dios.)",
+          "link": "(Nos vemos pronto, Adso. Con Dios.)",
+          "pid": "13"
+        }
+      ],
+      "name": "((Bien. Es un dia delicado, pero estad ''atento'' con vuestros hermanos y hermanas.))",
+      "pid": "12",
+      "position": {
+        "x": "1625",
+        "y": "575"
+      }
+    },
+    {
+      "text": "Luzei: Nos vemos pronto, Adso. Con Dios.\n[[((Con Dios, hermana Luzei. ))]]",
+      "links": [
+        {
+          "name": "((Con Dios, hermana Luzei. ))",
+          "link": "((Con Dios, hermana Luzei. ))",
+          "pid": "14"
+        }
+      ],
+      "name": "(Nos vemos pronto, Adso. Con Dios.)",
+      "pid": "13",
+      "position": {
+        "x": "1500",
+        "y": "700"
+      }
+    },
+    {
+      "text": "Adso: Con Dios, hermana Luzei. |... (¿Nos vemos pronto?)",
+      "name": "((Con Dios, hermana Luzei. ))",
+      "pid": "14",
+      "position": {
+        "x": "1500",
+        "y": "825"
+      }
+    }
+  ],
+  "name": "Acto1_ConversacionLuzei",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.8.1",
+  "ifid": "364B3657-DC0B-4EAA-AF47-9EA688927358"
+}

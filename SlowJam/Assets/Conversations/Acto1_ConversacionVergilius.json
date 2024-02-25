@@ -1,0 +1,252 @@
+{
+  "passages": [
+    {
+      "text": "Adso: ¿Otra vez vas a quemar el faisán? |La paciencia es virtud de un cristiano, Gaudenz, deberias prácticarla.\n[[((No he conseguido domar los elementos aún, Adso.))]]",
+      "links": [
+        {
+          "name": "((No he conseguido domar los elementos aún, Adso.))",
+          "link": "((No he conseguido domar los elementos aún, Adso.))",
+          "pid": "2"
+        }
+      ],
+      "name": "Untitled Passage",
+      "pid": "1",
+      "position": {
+        "x": "900",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Gaudenz: Es que tengo bastante hambre...\n[[((No te excuses, lo que deberías hacer...))]]",
+      "links": [
+        {
+          "name": "((No te excuses, lo que deberías hacer...))",
+          "link": "((No te excuses, lo que deberías hacer...))",
+          "pid": "3"
+        }
+      ],
+      "name": "((No he conseguido domar los elementos aún, Adso.))",
+      "pid": "2",
+      "position": {
+        "x": "1025",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Adso: No te excuses, lo que deberías hacer-\n[[((Siento interrumpir.))]]",
+      "links": [
+        {
+          "name": "((Siento interrumpir.))",
+          "link": "((Siento interrumpir.))",
+          "pid": "4"
+        }
+      ],
+      "name": "((No te excuses, lo que deberías hacer...))",
+      "pid": "3",
+      "position": {
+        "x": "1150",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Vergilius: Siento interrumpir.|Novicio, id a las escaleras del convento ahora mismo, es urgente.\n[[((¿Cómo que a las escaleras del convento?))]]",
+      "links": [
+        {
+          "name": "((¿Cómo que a las escaleras del convento?))",
+          "link": "((¿Cómo que a las escaleras del convento?))",
+          "pid": "5"
+        }
+      ],
+      "name": "((Siento interrumpir.))",
+      "pid": "4",
+      "position": {
+        "x": "1275",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Gaudenz: ¿Cómo que a las escaleras del convento?\n[[((¿No me he expresado lo suficientemente bien? Id, ahora.))]]",
+      "links": [
+        {
+          "name": "((¿No me he expresado lo suficientemente bien? Id, ahora.))",
+          "link": "((¿No me he expresado lo suficientemente bien? Id, ahora.))",
+          "pid": "6"
+        }
+      ],
+      "name": "((¿Cómo que a las escaleras del convento?))",
+      "pid": "5",
+      "position": {
+        "x": "1425",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Vergilius: ¿No me he expresado lo suficientemente bien? Id, ahora.\n[[((Como diga, abad.))]]",
+      "links": [
+        {
+          "name": "((Como diga, abad.))",
+          "link": "((Como diga, abad.))",
+          "pid": "7"
+        }
+      ],
+      "name": "((¿No me he expresado lo suficientemente bien? Id, ahora.))",
+      "pid": "6",
+      "position": {
+        "x": "1550",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Gaudenz: ... C-Como diga, abad.\n[[((Fraile, necesito que haga los preparativos para un entierro.))]]",
+      "links": [
+        {
+          "name": "((Fraile, necesito que haga los preparativos para un entierro.))",
+          "link": "((Fraile, necesito que haga los preparativos para un entierro.))",
+          "pid": "8"
+        }
+      ],
+      "name": "((Como diga, abad.))",
+      "pid": "7",
+      "position": {
+        "x": "1675",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Adso: ¿Preparativos para un... entierro, abad? |¿Ha llegado algún familiar de un hermano?\n[[((Ha ocurrido un accidente en las escaleras del convento, temo que ha sido la hermana Trudperta. Que Dios la tenga en su seno.))]]",
+      "links": [
+        {
+          "name": "((Ha ocurrido un accidente en las escaleras del convento, temo que ha sido la hermana Trudperta. Que Dios la tenga en su seno.))",
+          "link": "((Ha ocurrido un accidente en las escaleras del convento, temo que ha sido la hermana Trudperta. Que Dios la tenga en su seno.))",
+          "pid": "9"
+        }
+      ],
+      "name": "((Fraile, necesito que haga los preparativos para un entierro.))",
+      "pid": "8",
+      "position": {
+        "x": "1825",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Vergilius: Ha ocurrido un accidente en las escaleras del convento, temo que ha sido la hermana Trudperta. |Que Dios la tenga en su seno.\n[[((E-Esperad, ¿Trudperta? ¿Que ha ocurrido?))]]",
+      "links": [
+        {
+          "name": "((E-Esperad, ¿Trudperta? ¿Que ha ocurrido?))",
+          "link": "((E-Esperad, ¿Trudperta? ¿Que ha ocurrido?))",
+          "pid": "10"
+        }
+      ],
+      "name": "((Ha ocurrido un accidente en las escaleras del convento, temo que ha sido la hermana Trudperta. Que Dios la tenga en su seno.))",
+      "pid": "9",
+      "position": {
+        "x": "1950",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Adso: E-Esperad, ¿Trudperta? ¿Que ha ocurrido? |¿Está Baltram con ella?\n[[((El hermano Baltram está con ella, no debes preocuparte por ello.))]]",
+      "links": [
+        {
+          "name": "((El hermano Baltram está con ella, no debes preocuparte por ello.))",
+          "link": "((El hermano Baltram está con ella, no debes preocuparte por ello.))",
+          "pid": "11"
+        }
+      ],
+      "name": "((E-Esperad, ¿Trudperta? ¿Que ha ocurrido?))",
+      "pid": "10",
+      "position": {
+        "x": "2075",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Vergilius: El hermano Baltram está con ella, no debes preocuparte por ello. |Ahora id a hacer los preparatorios, por favor.\n[[((¿Pero que ha ocurrido?))]]\n[[((¿Cómo está Trudperta? Necesito saberlo.))]]\n[[((¿Por qué tenéis tanta prisa, abad?))]]",
+      "links": [
+        {
+          "name": "((¿Pero que ha ocurrido?))",
+          "link": "((¿Pero que ha ocurrido?))",
+          "pid": "12"
+        },
+        {
+          "name": "((¿Cómo está Trudperta? Necesito saberlo.))",
+          "link": "((¿Cómo está Trudperta? Necesito saberlo.))",
+          "pid": "13"
+        },
+        {
+          "name": "((¿Por qué tenéis tanta prisa, abad?))",
+          "link": "((¿Por qué tenéis tanta prisa, abad?))",
+          "pid": "14"
+        }
+      ],
+      "name": "((El hermano Baltram está con ella, no debes preocuparte por ello.))",
+      "pid": "11",
+      "position": {
+        "x": "2075",
+        "y": "525"
+      }
+    },
+    {
+      "text": "Adso: ¿Pero que ha ocurrido?\n[[((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))]]",
+      "links": [
+        {
+          "name": "((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))",
+          "link": "((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))",
+          "pid": "15"
+        }
+      ],
+      "name": "((¿Pero que ha ocurrido?))",
+      "pid": "12",
+      "position": {
+        "x": "2075",
+        "y": "650"
+      }
+    },
+    {
+      "text": "Adso: ¿Cómo está Trudperta? Necesito saberlo.\n[[((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))]]",
+      "links": [
+        {
+          "name": "((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))",
+          "link": "((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))",
+          "pid": "15"
+        }
+      ],
+      "name": "((¿Cómo está Trudperta? Necesito saberlo.))",
+      "pid": "13",
+      "position": {
+        "x": "2200",
+        "y": "650"
+      }
+    },
+    {
+      "text": "Adso: ¿Por qué tenéis tanta prisa, abad?\n[[((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))]]",
+      "links": [
+        {
+          "name": "((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))",
+          "link": "((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))",
+          "pid": "15"
+        }
+      ],
+      "name": "((¿Por qué tenéis tanta prisa, abad?))",
+      "pid": "14",
+      "position": {
+        "x": "1950",
+        "y": "650"
+      }
+    },
+    {
+      "text": "Vergilius: No quisiera repetir mis palabras, fraile. ''Haced'' lo que os pido.",
+      "name": "((No quisiera repetir mis palabras, fraile Adso. Por favor, haced lo que os pido.))",
+      "pid": "15",
+      "position": {
+        "x": "2075",
+        "y": "775"
+      }
+    }
+  ],
+  "name": "Acto1_ConversacionVergilius",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.8.1",
+  "ifid": "AC068180-BFB9-40AA-AD73-38288AF28534"
+}

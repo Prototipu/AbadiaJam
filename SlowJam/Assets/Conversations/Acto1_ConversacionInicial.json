@@ -1,0 +1,613 @@
+{
+  "passages": [
+    {
+      "text": "Gaudenz: Este nuevo plato de Franconia parece demasiado complicado. | Incluso la palabra que utiliza es complicada, ¿cómo era? ¿//Lebkuchen//?\n[[(Adso01)]]\n[[(Adso02)]]\n[[(Adso03)]]\n",
+      "links": [
+        {
+          "name": "(Adso01)",
+          "link": "(Adso01)",
+          "pid": "2"
+        },
+        {
+          "name": "(Adso02)",
+          "link": "(Adso02)",
+          "pid": "3"
+        },
+        {
+          "name": "(Adso03)",
+          "link": "(Adso03)",
+          "pid": "4"
+        }
+      ],
+      "name": "ACT1_01",
+      "pid": "1",
+      "position": {
+        "x": "600",
+        "y": "250"
+      }
+    },
+    {
+      "text": "Adso: Todo es complicado cuando no se conoce el proceso. | ¿O es que el primer faisán que cocinaste te pareció fácil?\n[[(Dudo que eso pudiese considerarse cocinado, Adso.)]]",
+      "links": [
+        {
+          "name": "(Dudo que eso pudiese considerarse cocinado, Adso.)",
+          "link": "(Dudo que eso pudiese considerarse cocinado, Adso.)",
+          "pid": "7"
+        }
+      ],
+      "name": "(Adso01)",
+      "pid": "2",
+      "position": {
+        "x": "825",
+        "y": "175"
+      }
+    },
+    {
+      "text": "Adso: Que no te escuchen los monjes franconios. |Son muy orgullosos con su cocina, bueno, todos los que viven al norte.\n[[(¿Trudperta es orgullosa con su cocina?)]]",
+      "links": [
+        {
+          "name": "(¿Trudperta es orgullosa con su cocina?)",
+          "link": "(¿Trudperta es orgullosa con su cocina?)",
+          "pid": "6"
+        }
+      ],
+      "name": "(Adso02)",
+      "pid": "3",
+      "position": {
+        "x": "825",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Adso: Quizás deberías pasar una temporada en Núremberg. |Lejos de Múnich, especialmente al norte, solo encontrarás peores platos de peores cocineros.\n[[(Cualquiera que no sea italiano para ti es un peor cocinero, Adso)]]",
+      "links": [
+        {
+          "name": "(Cualquiera que no sea italiano para ti es un peor cocinero, Adso)",
+          "link": "(Cualquiera que no sea italiano para ti es un peor cocinero, Adso)",
+          "pid": "5"
+        }
+      ],
+      "name": "(Adso03)",
+      "pid": "4",
+      "position": {
+        "x": "825",
+        "y": "425"
+      }
+    },
+    {
+      "text": "Gaudenz: Cualquiera que no sea italiano para ti es un peor cocinero, Adso.\n[[((Sabes que eso no es verdad, Trudperta está a la altura de los cocineros del norte de Italia.))]]",
+      "links": [
+        {
+          "name": "((Sabes que eso no es verdad, Trudperta está a la altura de los cocineros del norte de Italia.))",
+          "link": "((Sabes que eso no es verdad, Trudperta está a la altura de los cocineros del norte de Italia.))",
+          "pid": "8"
+        }
+      ],
+      "name": "(Cualquiera que no sea italiano para ti es un peor cocinero, Adso)",
+      "pid": "5",
+      "position": {
+        "x": "975",
+        "y": "425"
+      }
+    },
+    {
+      "text": "Gaudenz: ¿Trudperta es orgullosa con su cocina?\n[[((Trudperta es una buena cristiana, su corazón no tiene espacio para la soberbia.))]]",
+      "links": [
+        {
+          "name": "((Trudperta es una buena cristiana, su corazón no tiene espacio para la soberbia.))",
+          "link": "((Trudperta es una buena cristiana, su corazón no tiene espacio para la soberbia.))",
+          "pid": "9"
+        }
+      ],
+      "name": "(¿Trudperta es orgullosa con su cocina?)",
+      "pid": "6",
+      "position": {
+        "x": "975",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Gaudenz: Dudo que eso pudiese considerarse cocinado, Adso.\n[[((\"Así que, si tenemos suficiente alimento y ropa, estemos contentos.\"))]]",
+      "links": [
+        {
+          "name": "((\"Así que, si tenemos suficiente alimento y ropa, estemos contentos.\"))",
+          "link": "((\"Así que, si tenemos suficiente alimento y ropa, estemos contentos.\"))",
+          "pid": "10"
+        }
+      ],
+      "name": "(Dudo que eso pudiese considerarse cocinado, Adso.)",
+      "pid": "7",
+      "position": {
+        "x": "1000",
+        "y": "175"
+      }
+    },
+    {
+      "text": "Adso: Sabes que eso no es verdad, Trudperta está a la altura de los cocineros del norte de Italia.\n[[((Tendré que confiar en tu palabra, Adso.))]]",
+      "links": [
+        {
+          "name": "((Tendré que confiar en tu palabra, Adso.))",
+          "link": "((Tendré que confiar en tu palabra, Adso.))",
+          "pid": "11"
+        }
+      ],
+      "name": "((Sabes que eso no es verdad, Trudperta está a la altura de los cocineros del norte de Italia.))",
+      "pid": "8",
+      "position": {
+        "x": "1100",
+        "y": "425"
+      }
+    },
+    {
+      "text": "Adso: Trudperta es una buena cristiana, su corazón no tiene espacio para la soberbia.\n[[((Tendré que confiar en tu palabra, Adso.))]]",
+      "links": [
+        {
+          "name": "((Tendré que confiar en tu palabra, Adso.))",
+          "link": "((Tendré que confiar en tu palabra, Adso.))",
+          "pid": "11"
+        }
+      ],
+      "name": "((Trudperta es una buena cristiana, su corazón no tiene espacio para la soberbia.))",
+      "pid": "9",
+      "position": {
+        "x": "1100",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Adso: \"Así que, si tenemos suficiente alimento y ropa, estemos contentos\", Timoteo 6:8. |Quizás no era el mejor faisán, pero era alimento.\n[[((Tendré que confiar en tu palabra, Adso.))]]",
+      "links": [
+        {
+          "name": "((Tendré que confiar en tu palabra, Adso.))",
+          "link": "((Tendré que confiar en tu palabra, Adso.))",
+          "pid": "11"
+        }
+      ],
+      "name": "((\"Así que, si tenemos suficiente alimento y ropa, estemos contentos.\"))",
+      "pid": "10",
+      "position": {
+        "x": "1125",
+        "y": "175"
+      }
+    },
+    {
+      "text": "Gaudenz: Tendré que confiar en tu palabra, Adso. |Y más aún teniendo en cuenta que eres el nuevo fraile de la abadía. |¿Has podido hablar más con Vergilius? Es el abad más reservado que he conocido hasta la fecha.\n[[((No he hablado mucho con él, respeto su espacio.))]]\n[[((He compartido parte de mi tiempo con él, derivando tareas del antiguo fraile.)) (set: $confianzaAbad to it + 1)]]",
+      "links": [
+        {
+          "name": "((No he hablado mucho con él, respeto su espacio.))",
+          "link": "((No he hablado mucho con él, respeto su espacio.))",
+          "pid": "12"
+        },
+        {
+          "name": "((He compartido parte de mi tiempo con él, derivando tareas del antiguo fraile.)) (set: $confianzaAbad to it + 1)",
+          "link": "((He compartido parte de mi tiempo con él, derivando tareas del antiguo fraile.)) (set: $confianzaAbad to it + 1)",
+          "pid": "13"
+        }
+      ],
+      "name": "((Tendré que confiar en tu palabra, Adso.))",
+      "pid": "11",
+      "position": {
+        "x": "1275",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Adso: No he hablado mucho con él, respeto su espacio. |Hoy ni le he visto, ha estado reunido con la priora Matthild.\n[[((La Priora da bastante miedo...))]]",
+      "links": [
+        {
+          "name": "((La Priora da bastante miedo...))",
+          "link": "((La Priora da bastante miedo...))",
+          "pid": "14"
+        }
+      ],
+      "name": "((No he hablado mucho con él, respeto su espacio.))",
+      "pid": "12",
+      "position": {
+        "x": "1450",
+        "y": "375"
+      }
+    },
+    {
+      "text": "Adso: He compartido parte de mi tiempo con él, derivando tareas del antiguo fraile. |Aún así he tenido que retirarme, se ve que tenía cosas que hablar con la priora Matthild.\n[[((La Priora da bastante miedo...))]]",
+      "links": [
+        {
+          "name": "((La Priora da bastante miedo...))",
+          "link": "((La Priora da bastante miedo...))",
+          "pid": "14"
+        }
+      ],
+      "name": "((He compartido parte de mi tiempo con él, derivando tareas del antiguo fraile.)) (set: $confianzaAbad to it + 1)",
+      "pid": "13",
+      "position": {
+        "x": "1450",
+        "y": "250"
+      }
+    },
+    {
+      "text": "Gaudenz: La priora da bastante miedo... |No he olvidado su mirada cuando me vió tomar un pan de centeno de más. |Me pregunto que opinarán las hermanas de ella.\n[[((¿Interrumpo algo?))]]",
+      "links": [
+        {
+          "name": "((¿Interrumpo algo?))",
+          "link": "((¿Interrumpo algo?))",
+          "pid": "15"
+        }
+      ],
+      "name": "((La Priora da bastante miedo...))",
+      "pid": "14",
+      "position": {
+        "x": "1600",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Trudperta: Con Dios. ¿Interrumpo algo?\n[[((Con Dios, hermana.))]]",
+      "links": [
+        {
+          "name": "((Con Dios, hermana.))",
+          "link": "((Con Dios, hermana.))",
+          "pid": "17"
+        }
+      ],
+      "name": "((¿Interrumpo algo?))",
+      "pid": "15",
+      "position": {
+        "x": "1750",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Gaudenz: ¡Hola, Trudperta!\n[[((Modales, Gaudenz.))]]",
+      "links": [
+        {
+          "name": "((Modales, Gaudenz.))",
+          "link": "((Modales, Gaudenz.))",
+          "pid": "18"
+        }
+      ],
+      "name": "((¡Hola, Trudperta!))",
+      "pid": "16",
+      "position": {
+        "x": "2050",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Adso: Con Dios, hermana Trudperta. |No te preocupes, no has interrumpido nada.\n[[((¡Hola, Trudperta!))]]",
+      "links": [
+        {
+          "name": "((¡Hola, Trudperta!))",
+          "link": "((¡Hola, Trudperta!))",
+          "pid": "16"
+        }
+      ],
+      "name": "((Con Dios, hermana.))",
+      "pid": "17",
+      "position": {
+        "x": "1900",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Adso: Modales, Gaudenz.\n[[((Con Dios, Trudperta.))]]",
+      "links": [
+        {
+          "name": "((Con Dios, Trudperta.))",
+          "link": "((Con Dios, Trudperta.))",
+          "pid": "19"
+        }
+      ],
+      "name": "((Modales, Gaudenz.))",
+      "pid": "18",
+      "position": {
+        "x": "2200",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Gaudenz: ... Con Dios, hermana Trudperta. |No interrumpes nada. Solo estaba preguntando a Adso sobre su nuevo título de fraile.\n[[((Oh, ¿y que te ha dicho?))]]",
+      "links": [
+        {
+          "name": "((Oh, ¿y que te ha dicho?))",
+          "link": "((Oh, ¿y que te ha dicho?))",
+          "pid": "20"
+        }
+      ],
+      "name": "((Con Dios, Trudperta.))",
+      "pid": "19",
+      "position": {
+        "x": "2350",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Trudperta: Oh, ¿y que te ha dicho?\n[[((Nada... De momento.))]]",
+      "links": [
+        {
+          "name": "((Nada... De momento.))",
+          "link": "((Nada... De momento.))",
+          "pid": "21"
+        }
+      ],
+      "name": "((Oh, ¿y que te ha dicho?))",
+      "pid": "20",
+      "position": {
+        "x": "2475",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Gaudenz: Nada... De momento.\n[[((Creo que se me escogió por mi experiencia en Italia.))]]\n[[((Solo es un título y unas responsabilidades, sigo siendo el hermano Adso.))]]\n[[((Bajo la mirada de Dios no hay que ser jactancioso.))]]",
+      "links": [
+        {
+          "name": "((Creo que se me escogió por mi experiencia en Italia.))",
+          "link": "((Creo que se me escogió por mi experiencia en Italia.))",
+          "pid": "24"
+        },
+        {
+          "name": "((Solo es un título y unas responsabilidades, sigo siendo el hermano Adso.))",
+          "link": "((Solo es un título y unas responsabilidades, sigo siendo el hermano Adso.))",
+          "pid": "22"
+        },
+        {
+          "name": "((Bajo la mirada de Dios no hay que ser jactancioso.))",
+          "link": "((Bajo la mirada de Dios no hay que ser jactancioso.))",
+          "pid": "23"
+        }
+      ],
+      "name": "((Nada... De momento.))",
+      "pid": "21",
+      "position": {
+        "x": "2625",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Adso: Solo es un título y unas responsabilidades, sigo siendo el hermano Adso. |Uno que cocina como un despensero más. |Hablando de despenseros, ¿querías algo, hermana Trudperta?\n[[((Ah, si, perdonad. Vengo de ver a Ruppert.))]]",
+      "links": [
+        {
+          "name": "((Ah, si, perdonad. Vengo de ver a Ruppert.))",
+          "link": "((Ah, si, perdonad. Vengo de ver a Ruppert.))",
+          "pid": "25"
+        }
+      ],
+      "name": "((Solo es un título y unas responsabilidades, sigo siendo el hermano Adso.))",
+      "pid": "22",
+      "position": {
+        "x": "2625",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Adso: Bajo la mirada de Dios no hay que ser jactancioso. |Fui escogido por Vergilius y poco más. A todo esto, ¿buscabas algo, hermana Trudperta?\n[[((Ah, si, perdonad. Vengo de ver a Ruppert.))]]",
+      "links": [
+        {
+          "name": "((Ah, si, perdonad. Vengo de ver a Ruppert.))",
+          "link": "((Ah, si, perdonad. Vengo de ver a Ruppert.))",
+          "pid": "25"
+        }
+      ],
+      "name": "((Bajo la mirada de Dios no hay que ser jactancioso.))",
+      "pid": "23",
+      "position": {
+        "x": "2750",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Adso: Creo que se me escogió por mi experiencia en Italia. |Un fraile que pueda comunicarse con la frontera norte de Italia tiene su valor. |Pero apartando el tema de mi título, ¿buscabas algo, hermana Trudperta?\n[[((Ah, si, perdonad. Vengo de ver a Ruppert.))]]",
+      "links": [
+        {
+          "name": "((Ah, si, perdonad. Vengo de ver a Ruppert.))",
+          "link": "((Ah, si, perdonad. Vengo de ver a Ruppert.))",
+          "pid": "25"
+        }
+      ],
+      "name": "((Creo que se me escogió por mi experiencia en Italia.))",
+      "pid": "24",
+      "position": {
+        "x": "2500",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Trudperta: Ah, si, perdonad. Vengo de organizar la libreria con Ruppert.\n[[((¿De nuevo?))]]",
+      "links": [
+        {
+          "name": "((¿De nuevo?))",
+          "link": "((¿De nuevo?))",
+          "pid": "26"
+        }
+      ],
+      "name": "((Ah, si, perdonad. Vengo de ver a Ruppert.))",
+      "pid": "25",
+      "position": {
+        "x": "2625",
+        "y": "600"
+      }
+    },
+    {
+      "text": "Gaudenz: ¿De nuevo? Me da la impresión de que el hermano Ruppert no es el más organizado de la abadía.\n[[((Por su altura no llega a muchos lugares))]]",
+      "links": [
+        {
+          "name": "((Por su altura no llega a muchos lugares))",
+          "link": "((Por su altura no llega a muchos lugares))",
+          "pid": "27"
+        }
+      ],
+      "name": "((¿De nuevo?))",
+      "pid": "26",
+      "position": {
+        "x": "2625",
+        "y": "725"
+      }
+    },
+    {
+      "text": "Trudperta: Por su altura no llega a muchos lugares, además el trabajo es más rápido en colaboración. |En todo caso, Ruppert quiere saber que hay de comer. Tengo que ir un momento al convento por unos deberes. |Asi cuando vuelva a la biblioteca ya sabrá la comida del dia.\n[[((Había pensado en un poco de pan de centeno con faisán.))]]\n[[((¿No puede venir él mismo a preguntar?))]]\n[[((¿Lebkuchen con un poco de faisán?))]]",
+      "links": [
+        {
+          "name": "((Había pensado en un poco de pan de centeno con faisán.))",
+          "link": "((Había pensado en un poco de pan de centeno con faisán.))",
+          "pid": "28"
+        },
+        {
+          "name": "((¿No puede venir él mismo a preguntar?))",
+          "link": "((¿No puede venir él mismo a preguntar?))",
+          "pid": "29"
+        },
+        {
+          "name": "((¿Lebkuchen con un poco de faisán?))",
+          "link": "((¿Lebkuchen con un poco de faisán?))",
+          "pid": "30"
+        }
+      ],
+      "name": "((Por su altura no llega a muchos lugares))",
+      "pid": "27",
+      "position": {
+        "x": "2625",
+        "y": "850"
+      }
+    },
+    {
+      "text": "Adso: Había pensado en un poco de pan de centeno con faisán.\n[[((Ninguna sorpresa entonces, se lo haré saber.))]]",
+      "links": [
+        {
+          "name": "((Ninguna sorpresa entonces, se lo haré saber.))",
+          "link": "((Ninguna sorpresa entonces, se lo haré saber.))",
+          "pid": "32"
+        }
+      ],
+      "name": "((Había pensado en un poco de pan de centeno con faisán.))",
+      "pid": "28",
+      "position": {
+        "x": "2625",
+        "y": "975"
+      }
+    },
+    {
+      "text": "Adso: ¿No puede venir él mismo a preguntar?\n[[((Podría, pero entonces no le daría tiempo a organizar la biblioteca, fraile Adso.))]]",
+      "links": [
+        {
+          "name": "((Podría, pero entonces no le daría tiempo a organizar la biblioteca, fraile Adso.))",
+          "link": "((Podría, pero entonces no le daría tiempo a organizar la biblioteca, fraile Adso.))",
+          "pid": "31"
+        }
+      ],
+      "name": "((¿No puede venir él mismo a preguntar?))",
+      "pid": "29",
+      "position": {
+        "x": "2475",
+        "y": "975"
+      }
+    },
+    {
+      "text": "(set: $lebkuchen to true) Adso: ¿Lebkuchen con un poco de faisán?\n[[((¿Lebkuchen? No sabía que teniais interés en la cocina de Núremberg.))]]",
+      "links": [
+        {
+          "name": "((¿Lebkuchen? No sabía que teniais interés en la cocina de Núremberg.))",
+          "link": "((¿Lebkuchen? No sabía que teniais interés en la cocina de Núremberg.))",
+          "pid": "33"
+        }
+      ],
+      "name": "((¿Lebkuchen con un poco de faisán?))",
+      "pid": "30",
+      "position": {
+        "x": "2750",
+        "y": "975"
+      }
+    },
+    {
+      "text": "Trudperta: Podría, pero entonces no le daría tiempo a organizar la biblioteca, fraile Adso.\n[[((Gracias por relevarme en la cocina aún así.))]]",
+      "links": [
+        {
+          "name": "((Gracias por relevarme en la cocina aún así.))",
+          "link": "((Gracias por relevarme en la cocina aún así.))",
+          "pid": "34"
+        }
+      ],
+      "name": "((Podría, pero entonces no le daría tiempo a organizar la biblioteca, fraile Adso.))",
+      "pid": "31",
+      "position": {
+        "x": "2475",
+        "y": "1100"
+      }
+    },
+    {
+      "text": "Trudperta: Ninguna sorpresa entonces, se lo haré saber.\n[[((Gracias por relevarme en la cocina aún así.))]]",
+      "links": [
+        {
+          "name": "((Gracias por relevarme en la cocina aún así.))",
+          "link": "((Gracias por relevarme en la cocina aún así.))",
+          "pid": "34"
+        }
+      ],
+      "name": "((Ninguna sorpresa entonces, se lo haré saber.))",
+      "pid": "32",
+      "position": {
+        "x": "2625",
+        "y": "1100"
+      }
+    },
+    {
+      "text": "Trudperta: ¿Lebkuchen? No sabía que teniais interés en la cocina de Núremberg.\n[[((Gracias por relevarme en la cocina aún así.))]]",
+      "links": [
+        {
+          "name": "((Gracias por relevarme en la cocina aún así.))",
+          "link": "((Gracias por relevarme en la cocina aún así.))",
+          "pid": "34"
+        }
+      ],
+      "name": "((¿Lebkuchen? No sabía que teniais interés en la cocina de Núremberg.))",
+      "pid": "33",
+      "position": {
+        "x": "2750",
+        "y": "1100"
+      }
+    },
+    {
+      "text": "Trudperta: Gracias por relevarme en la cocina aún así. |Id con Dios, tengo algo de prisa. |(if:$lebkuchen is true)[Tengo ganas de probar ese lebkuchen, Adso. Nos vemos.]\n[[((Id con Dios, Trudperta.))]]",
+      "links": [
+        {
+          "name": "((Id con Dios, Trudperta.))",
+          "link": "((Id con Dios, Trudperta.))",
+          "pid": "35"
+        }
+      ],
+      "name": "((Gracias por relevarme en la cocina aún así.))",
+      "pid": "34",
+      "position": {
+        "x": "2625",
+        "y": "1225"
+      }
+    },
+    {
+      "text": "Adso: Id con Dios, Trudperta.\n[[((¡Con Dios, Trudperta!))]]",
+      "links": [
+        {
+          "name": "((¡Con Dios, Trudperta!))",
+          "link": "((¡Con Dios, Trudperta!))",
+          "pid": "36"
+        }
+      ],
+      "name": "((Id con Dios, Trudperta.))",
+      "pid": "35",
+      "position": {
+        "x": "2625",
+        "y": "1350"
+      }
+    },
+    {
+      "text": "Gaudenz: ¡Con Dios, Trudperta! |Y ahora... ¿Puedo intentar cocinar el faisán?",
+      "name": "((¡Con Dios, Trudperta!))",
+      "pid": "36",
+      "position": {
+        "x": "2625",
+        "y": "1475"
+      }
+    }
+  ],
+  "name": "Acto1_ConversacionInicial",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.8.1",
+  "ifid": "0C569B5A-3A07-4B31-B227-4F2E10E56411"
+}
