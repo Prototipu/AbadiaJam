@@ -144,6 +144,7 @@ public class ConfesionarioManager : MonoBehaviour
 
             case State.Conversar:
                 StartConversation(CurrentNPC.GetComponent<NPCEnConfesionario>().Conv, Player.transform, CurrentNPC.GetComponent<NPCEnConfesionario>().conversant);
+                Debug.Log(CurrentNPC.GetComponent<NPCEnConfesionario>().Conv);
                 break;
 
             case State.Salir:
@@ -177,6 +178,11 @@ public class ConfesionarioManager : MonoBehaviour
     public void FinConfesiones()
     {
         ChangeState(State.Salir);
+    }
+
+    public void FinInicioDia()
+    {
+        ChangeState(State.DefinirPersoanje);
     }
     
 }
