@@ -5992,6 +5992,10 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8639407886626221658, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8639407886626394306, guid: d8f14b87f7a347d458dc65443e29111e, type: 3}
       propertyPath: m_Name
       value: UI Abadia

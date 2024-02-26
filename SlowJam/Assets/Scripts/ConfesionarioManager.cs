@@ -64,6 +64,7 @@ public class ConfesionarioManager : MonoBehaviour
 
                 if (CurrentNPCIndex == AllNPCs.Count)
                 {
+                    Debug.Log("entra en el if de acabar");
                     ChangeState(State.FinConfesiones);
                 }
                 else
@@ -77,13 +78,17 @@ public class ConfesionarioManager : MonoBehaviour
                     ChangeState(State.DefinirPersoanje);
                 break;
             case State.FinConfesiones:
-                if (FinConfesionesDialogoHecho)
-                {
+
                     //Lógica de salir del confesionario
                     Debug.Log("Se acabó el día de confesarse");
-                }
+                
                 break;
         }
+
+        /*if (FinConfesionesDialogoHecho)
+        {
+            ChangeState(State.FinConfesiones);
+        }*/
     }
 
     void ChangeState(State newState)
@@ -96,7 +101,7 @@ public class ConfesionarioManager : MonoBehaviour
                 break;
             case State.InicioDia:
                 MasConfesoresDialogoHecho = false;
-                FinConfesionesDialogoHecho = false;
+                //FinConfesionesDialogoHecho = false;
                 break;
             case State.DefinirPersoanje:
                 break;
@@ -113,7 +118,7 @@ public class ConfesionarioManager : MonoBehaviour
                 break;
             case State.MasConfesores:
                 MasConfesoresDialogoHecho = false;
-                FinConfesionesDialogoHecho = false;
+                //FinConfesionesDialogoHecho = false;
                 break;
             case State.FinConfesiones:
 
@@ -146,12 +151,12 @@ public class ConfesionarioManager : MonoBehaviour
 
                 break;
             case State.MasConfesores:
-                StartConversation("Mas confesores", Player.transform, Player.transform);
+                StartConversation("MasConfesores", Player.transform, Player.transform);
                 MasConfesoresDialogoHecho = false;
                 break;
             case State.FinConfesiones:
-                StartConversation("Fin confesiones", Player.transform, Player.transform);
-                FinConfesionesDialogoHecho = false;
+                StartConversation("FinConfesiones", Player.transform, Player.transform);
+                //FinConfesionesDialogoHecho = false;
                 break;
         }
 
@@ -167,7 +172,11 @@ public class ConfesionarioManager : MonoBehaviour
     {
         PrimerDialogoHecho = true;
         MasConfesoresDialogoHecho = true;
-        FinConfesionesDialogoHecho = true;
+        //FinConfesionesDialogoHecho = true;
+    }
+    public void FinConfesiones()
+    {
+        ChangeState(State.Salir);
     }
     
 }
