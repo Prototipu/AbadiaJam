@@ -13,15 +13,18 @@ namespace ChristinaCreatesGames.Typography.TooltipForTMP
     public class TooltipHandlerHover : MonoBehaviour
     {
         [SerializeField] private List<TooltipInfos> tooltipContentList;
-
+        private Dictionary<string, TooltipInfos> tooltipDictionary;
         [SerializeField] private GameObject tooltipContainer;
         private TMP_Text _tooltipDescriptionTMP;
         public Image _tooptipImage;
         public float distanciaTooltip;
-        
+
         private void Awake()
         {
             _tooltipDescriptionTMP = tooltipContainer.GetComponentInChildren<TMP_Text>();
+            tooltipDictionary = new Dictionary<string, TooltipInfos>();
+            foreach (var entry in tooltipContentList)
+                tooltipDictionary.Add(entry.Keyword, entry);
         }
 
         private void OnEnable()
@@ -36,25 +39,27 @@ namespace ChristinaCreatesGames.Typography.TooltipForTMP
             LinkHandlerForTMPTextHover.OnCloseTooltipEvent -= CloseTooltip;
         }
 
-        private void GetTooltipInfo(string keyword, Vector3 mousePos)
+        private void GetTooltipInfo(string keyword, Vector3 mousePos, string X)
         {
-            foreach (var entry in tooltipContentList)
+            Debug.Log(X);
+
+            if (tooltipDictionary.ContainsKey(keyword))
             {
-                if (entry.Keyword == keyword)
+                TooltipInfos entry = tooltipDictionary[keyword];
+                if (!tooltipContainer.gameObject.activeInHierarchy)
                 {
-                    if (!tooltipContainer.gameObject.activeInHierarchy)
-                    {
-                        //tooltipContainer.transform.position = mousePos +  new Vector3(0, distanciaTooltip, 0); // This offset is an example, you'll probably need to find your own best fitting value.
-                        tooltipContainer.gameObject.SetActive(true);
-                    }
-                    
-                    _tooltipDescriptionTMP.text = entry.Description;
-                    _tooptipImage.sprite = entry.Image;
-                    return;
+                    //tooltipContainer.transform.position = mousePos +  new Vector3(0, distanciaTooltip, 0); // This offset is an example, you'll probably need to find your own best fitting value.
+                    tooltipContainer.gameObject.SetActive(true);
                 }
+
+                _tooltipDescriptionTMP.text = entry.Description;
+                _tooptipImage.sprite = entry.Image;
+                return;
             }
-            
-            Debug.Log($"Keyword: {keyword} not found");
+            else
+                Debug.Log($"Keyword: {keyword} not found");
+
+
         }
 
         public void CloseTooltip()

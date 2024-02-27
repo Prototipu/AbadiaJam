@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SetTypeWriterForActor.cs" />
+    <Compile Include="Assets\Scripts\FlipSprite.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Elevator.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TitleHeaderAttribute.cs" />
     <Compile Include="Assets\Cainos\Common\Script\Utils\SecondOrderDynamics.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\IndentAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ButtonAttribute.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Chest.cs" />
+    <Compile Include="Assets\Scripts\LinkHandlerHoverName.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
     <Compile Include="Assets\Scripts\ContinueFastForward.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets\Scripts\LinkHandlerForTMPTextHover.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowInInspectorAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\SectionHeaderAttribute.cs" />
+    <Compile Include="Assets\Scripts\RellenoBarras.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\OnValueChangedAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs" />
@@ -101,6 +104,7 @@
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\BoundingPlatform.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideMonoScript.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TabGroupAttribute.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInEditModeAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ValidateInputAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\LabelWidthAttribute.cs" />

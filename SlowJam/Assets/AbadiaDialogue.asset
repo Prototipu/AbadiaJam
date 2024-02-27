@@ -54,7 +54,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: Adso de Melk
+      value: <color="yellow"><link="Adso">Adso de Melk</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -88,7 +88,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: 
+      value: <color="yellow"><link="Gaudenz">Gaudenz</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -122,7 +122,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: 
+      value: <color="yellow"><link="Ruppert">Ruppert</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -152,7 +152,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: 
+      value: <color="yellow"><link="Vergilius">Vergilius</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -182,7 +182,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: 
+      value: <color="yellow"><link="Matthild">Matthild</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -212,7 +212,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: 
+      value: <color="yellow"><link="Trudperta">Trudperta</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -246,7 +246,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: 
+      value: <color="yellow"><link="Baltram">Baltram</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -276,7 +276,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Display Name
-      value: 
+      value: <color="yellow"><link="Luzei">Luzei</link></color>
       type: 0
       typeString: CustomFieldType_Text
     - title: AudioClip
@@ -330,6 +330,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+  - id: 2
+    fields:
+    - title: Name
+      value: Confesiones2Hecho
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     - title: Description
       value: 
       type: 0
@@ -3892,9 +3906,17 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(stay,1);
+        value: 'SetActive(BotonContinuarJugador,false);
 
-          LoadLevel(Act1_ConversacionVergilius_02)@1.5;'
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
+
+          LoadLevel(Act1_ConversacionVergilius_02)@1.5;
+
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;'
         type: 0
         typeString: 
       conversationID: 1
@@ -3923,8 +3945,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 6.8805733, y: 1592.6796}
-    canvasZoom: 0.85000026
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.8500005
   - id: 2
     fields:
     - title: Title
@@ -5040,9 +5062,17 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(stay,1);
+        value: 'SetActive(BotonContinuarJugador,false);
 
-          LoadLevel(Act1_Confesiones)@1.5;'
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
+
+          LoadLevel(Act1_Confesiones)@1.5;
+
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -5069,7 +5099,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 104.71838, y: 327.27264}
+    canvasScrollPosition: {x: 200.86365, y: 12}
     canvasZoom: 0.88000023
   - id: 3
     fields:
@@ -6431,9 +6461,21 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(stay,1);
+        value: 'SetActive(BotonContinuarJugador,false);
 
-          LoadLevel(Act1_ConversacionLuzei_03)@1.5;'
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
+
+          LoadLevel(Act1_ConversacionLuzei_03)@1.5;
+
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;'
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 3
@@ -6519,7 +6561,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 122.95218, y: 648.93616}
+    canvasScrollPosition: {x: 185.71817, y: 789.36176}
     canvasZoom: 0.9399997
   - id: 4
     fields:
@@ -6792,7 +6834,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.5699995
+    canvasZoom: 1.2699997
   - id: 5
     fields:
     - title: Title
@@ -9716,8 +9758,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 171.10367, y: 1900.1101}
-    canvasZoom: 0.75999975
+    canvasScrollPosition: {x: 0, y: 1765.9714}
+    canvasZoom: 0.54999995
   - id: 6
     fields:
     - title: Title
@@ -12496,7 +12538,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 100.15514, y: 1113.8069}
+    canvasScrollPosition: {x: 102.09692, y: 1986.6228}
     canvasZoom: 1.0299995
   - id: 7
     fields:
@@ -13518,7 +13560,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 20
         y: 30
         width: 480
         height: 30
@@ -13573,8 +13615,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 159
-        y: 81
+        x: 520
+        y: 30
         width: 480
         height: 30
     - id: 2
@@ -13629,8 +13671,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
-        y: 130
+        x: 1020
+        y: 30
         width: 480
         height: 30
     - id: 3
@@ -13660,9 +13702,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'LoadLevel(Act1_1Conversacion_01)
+        value: 'SetActive(BotonContinuarJugador,false);
 
-'
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
+
+          LoadLevel(Act3_Conversacion_01)@1.5;
+
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;
+
+          Continue()@2.1;'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -13684,13 +13736,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
-        y: 180
+        x: 1520
+        y: 28.780487
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 45.214252, y: 29.142834}
-    canvasZoom: 1.1199999
+    canvasScrollPosition: {x: 1353.5485, y: 6.0975494}
+    canvasZoom: 0.8200001
   - id: 10
     fields:
     - title: Title
@@ -14045,7 +14097,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: LoadLevel(Act2_ConversacionLuzei_01)
+        value: LoadLevel(Act2_ConversacionLuzei_01);
         type: 0
         typeString: 
       conversationID: 10
@@ -16399,11 +16451,21 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(stay,1);
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
 
           LoadLevel(Act2_ConversacionVirgilius_02)@1.5;
 
-          Continue()@2;'
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;
+
+          Continue()@2.1;
+
+'
         type: 0
         typeString: 
       conversationID: 11
@@ -16432,7 +16494,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 9.210571, y: 0}
+    canvasScrollPosition: {x: 13.157959, y: 1281.5796}
     canvasZoom: 0.75999963
   - id: 12
     fields:
@@ -18195,11 +18257,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(stay,1);
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
 
           LoadLevel(Act2_ConversacionMatthild_03)@1.5;
 
-          Continue()@2;'
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;
+
+          Continue()@2.1;'
         type: 0
         typeString: 
       conversationID: 12
@@ -20215,11 +20285,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(stay,1);
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
 
           LoadLevel(Act2_Confesiones)@1.5;
 
-          Continue()@2;'
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;
+
+          Continue()@2.1;'
         type: 0
         typeString: 
       conversationID: 13
@@ -23112,7 +23190,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "(\xBFQu\xE9  habr\xE9 dicho para que le den ahora las prisas?)"
+        value: "(\xBFQu\xE9 habr\xE9 dicho para que le den ahora las prisas?)"
         type: 0
         typeString: 
       - title: Sequence
@@ -23249,8 +23327,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 297.45242, y: 591.50964}
-    canvasZoom: 1.0599993
+    canvasScrollPosition: {x: 54.430428, y: 1582.1785}
+    canvasZoom: 0.8799995
   - id: 16
     fields:
     - title: Title
@@ -25513,7 +25591,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Tarde o temprano lo entender\xE1. Con dios hermano."
+        value: "Tarde o temprano lo entender\xE1. Con Dios hermano."
         type: 0
         typeString: 
       - title: Sequence
@@ -25595,7 +25673,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 141.4122, y: 260.43958}
+    canvasScrollPosition: {x: 149.10452, y: 1021.9782}
     canvasZoom: 0.90999985
   - id: 17
     fields:
@@ -25670,7 +25748,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: None()
+        value: 'Fade(in,1);
+
+          Continue()@1.5;'
         type: 0
         typeString: 
       conversationID: 17
@@ -27350,7 +27430,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: LoadLevel(Act3_Asesinato_02)
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
+
+          LoadLevel(Act3_Asesinato_02)@1.5;
+
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;
+
+          Continue()@2.1;'
         type: 0
         typeString: 
       conversationID: 17
@@ -27379,8 +27471,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 158.10757}
-    canvasZoom: 0.6100003
+    canvasScrollPosition: {x: 194.30066, y: 0}
+    canvasZoom: 0.8200001
   - id: 18
     fields:
     - title: Title
@@ -27454,7 +27546,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: None()
+        value: 'Fade(in,1);
+
+          Continue()@1.5;'
         type: 0
         typeString: 
       conversationID: 18
@@ -29143,7 +29237,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: LoadLevel(Act3_Resolucion_03)
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
+
+          LoadLevel(Act3_Resolucion_03);
+
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;
+
+          Continue()@2.1;'
         type: 0
         typeString: 
       conversationID: 18
@@ -29167,13 +29273,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 278.34308
+        x: 277.02728
         y: 1471.064
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1004.26483}
-    canvasZoom: 0.43000028
+    canvasScrollPosition: {x: 2.5316162, y: 0}
+    canvasZoom: 0.7900001
   - id: 19
     fields:
     - title: Title
@@ -29247,7 +29353,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: None()
+        value: 'Fade(in,1);
+
+          Continue()@1.5;'
         type: 0
         typeString: 
       conversationID: 19
@@ -32110,7 +32218,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " \xA1YO SOY EL REGIDOR DE ESTA ABAD\xCDA"
+        value: " \xA1YO SOY EL REGIDOR DE ESTA ABAD\xCDA!"
         type: 0
         typeString: 
       - title: Sequence
@@ -32532,8 +32640,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 270.15753, y: 1806.3497}
-    canvasZoom: 1.0599995
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.58
   syncInfo:
     syncActors: 0
     syncItems: 0
