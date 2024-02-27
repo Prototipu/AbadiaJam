@@ -6,9 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Escenas de conversacion/Act1_1Conversacion.unity
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: 80389e35e33675d4f828298ec959e4e4
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act1_1Conversacion_01.unity
     guid: 9f2d9025fe6fa4444aeadf7a986c17a3
   - enabled: 1
     path: Assets/Scenes/SegundaParte.unity
     guid: 13b08f473249786478e7f888f8fe1c71
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act1_Confesiones.unity
+    guid: 4aab28b8bae41fd47ad38754851b4c17
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act1_ConversacionLuzei_03.unity
+    guid: dc57a336e6eda7d48b9fb396d6fdc5b0
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act1_ConversacionVergilius_02.unity
+    guid: ac2098d3e1bdc3345b24d228843463e1
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act2_Confesiones.unity
+    guid: dbcf9b7e434431f49ba09dbc36114950
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act2_ConversacionLuzei_01.unity
+    guid: 8a7432fcbc1b72d4b87184d7fdbdd3f1
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act2_ConversacionMatthild_03.unity
+    guid: a8838b89f04bc064c8622cf420929735
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act2_ConversacionVirgilius_02.unity
+    guid: 5a8c85d741e638945a9c39d96810fbb0
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act3_Asesinato_02.unity
+    guid: aea7aa01aab305945b68c9ede63fe79a
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act3_Conversacion_01.unity
+    guid: 0081398919797464784822bc63813f3f
+  - enabled: 1
+    path: Assets/Scenes/Escenas de conversacion/Act3_Resolucion_03.unity
+    guid: 93b5bc6c4677c304885b98fabbfc747b
   m_configObjects: {}
