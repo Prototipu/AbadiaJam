@@ -11864,6 +11864,23 @@ MonoBehaviour:
     onDialogueSystemUnpause:
       m_PersistentCalls:
         m_Calls: []
+--- !u!1 &235218870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8518306111924268932, guid: dba0dece0e93cc04d90696e77ec2283c, type: 3}
+  m_PrefabInstance: {fileID: 702340486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &235218878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235218870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c648c9a7b93e97745b39243d58c72331, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &238541492
 GameObject:
   m_ObjectHideFlags: 0
@@ -28477,6 +28494,7 @@ MonoBehaviour:
   Player: {fileID: 380473473}
   AllNPCs:
   - {fileID: 139519115}
+  - {fileID: 881384784}
   CurrentNPC: {fileID: 0}
   PrimerDialogoHecho: 0
   MasConfesoresDialogoHecho: 0
@@ -29494,7 +29512,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8518306111924268932, guid: dba0dece0e93cc04d90696e77ec2283c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 235218878}
   m_SourcePrefab: {fileID: 100100000, guid: dba0dece0e93cc04d90696e77ec2283c, type: 3}
 --- !u!1 &742221337
 GameObject:
@@ -40147,7 +40168,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: PrimerDiaSegundaConfesion
+  conversation: Acto2_SegundaConfesion
   conversationConversant: {fileID: 881384786}
   conversationActor: {fileID: 380473474}
   startConversationEntryID: -1
@@ -40191,7 +40212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conversant: {fileID: 881384786}
-  Conv: PrimerDiaSegundaConfesion
+  Conv: Acto2_SegundaConfesion
   EndConv: 0
   HaEntrado: 0
   IsMoving: 0
