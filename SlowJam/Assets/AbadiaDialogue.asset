@@ -408,7 +408,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Fade(stay,0);
+
+          Fade(in,1);
+
+          Delay()@1.5;'
         type: 0
         typeString: 
       conversationID: 1
@@ -695,7 +699,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Cualquiera que no sea italiano para ti es un peor cocinero, Adso.
+        value: Cualquiera que no sea italiano para ti es un peor cocinero, <color="yellow"><link="Adso">Adso</link></color>.
         type: 0
         typeString: 
       - title: Sequence
@@ -750,7 +754,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBF<color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>\r  
+        value: "\xBF<color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>
           es orgullosa con su cocina?"
         type: 0
         typeString: 
@@ -806,7 +810,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Dudo que eso pudiese considerarse cocinado, Adso.
+        value: Dudo que eso pudiese considerarse cocinado, <color="yellow"><link="Adso">Adso</link></color>.
         type: 0
         typeString: 
       - title: Sequence
@@ -862,7 +866,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Sabes que eso no es verdad, <color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>\r
+        value: "Sabes que eso no es verdad, <color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>
           est\xE1 a la altura de los cocineros del norte de Italia."
         type: 0
         typeString: 
@@ -919,8 +923,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "<color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>\r\n
-          es una buena cristiana, su coraz\xF3n no tiene espacio para la soberbia."
+        value: "<color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color> es
+          una buena cristiana, su coraz\xF3n no tiene espacio para la soberbia."
         type: 0
         typeString: 
       - title: Sequence
@@ -1035,7 +1039,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Tendr\xE9 que confiar en tu palabra, Adso. "
+        value: "Tendr\xE9 que confiar en tu palabra, <color=\"yellow\"><link=\"Adso\">Adso</link></color>. "
         type: 0
         typeString: 
       - title: Sequence
@@ -1335,7 +1339,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xA1Hola, <color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>\r\n!"
+        value: "\xA1Hola, <color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>!"
         type: 0
         typeString: 
       - title: Sequence
@@ -1390,9 +1394,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Con Dios, hermana <color="yellow"><link="Trudperta">Trudperta</link></color>
-
-          . '
+        value: 'Con Dios, hermana <color="yellow"><link="Trudperta">Trudperta</link></color>. '
         type: 0
         typeString: 
       - title: Sequence
@@ -1451,7 +1453,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Modales, Gaudenz.
+        value: Modales, <color="yellow"><link="Gaudenz">Gaudenz</link></color>.
         type: 0
         typeString: 
       - title: Sequence
@@ -1506,9 +1508,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '... Con Dios, hermana <color="yellow"><link="Trudperta">Trudperta</link></color>
-
-          . '
+        value: '... Con Dios, hermana <color="yellow"><link="Trudperta">Trudperta</link></color>. '
         type: 0
         typeString: 
       - title: Sequence
@@ -1691,7 +1691,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: "Solo es un t\xEDtulo y unas responsabilidades, sigo siendo el hermano
-          Adso. "
+          <color=\"yellow\"><link=\"Adso\">Adso</link></color>. "
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -2432,7 +2432,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Id con Dios, Trudperta.
+        value: Id con Dios, <color="yellow"><link="Trudperta">Trudperta</link></color>.
         type: 0
         typeString: 
       - title: Sequence
@@ -2460,7 +2460,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530
+        x: 529.1072
         y: 1870
         width: 480
         height: 30
@@ -2546,7 +2546,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " Incluso la palabra que utiliza es complicada, \xBFc\xF3mo era? \xBF<i>Lebkuchen</i>?"
+        value: "Incluso la palabra que utiliza es complicada, \xBFc\xF3mo era? \xBF<i>Lebkuchen</i>?"
         type: 0
         typeString: 
       - title: Sequence
@@ -2617,7 +2617,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " \xBFO es que el primer fais\xE1n que cocinaste te pareci\xF3 f\xE1cil?"
+        value: "\xBFO es que el primer fais\xE1n que cocinaste te pareci\xF3 f\xE1cil?"
         type: 0
         typeString: 
       - title: Sequence
@@ -2914,7 +2914,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFHas podido hablar m\xE1s con <color=\"yellow\"><link=\"Vergilius\">Vergilius</link></color>\r\n?
+        value: "\xBFHas podido hablar m\xE1s con <color=\"yellow\"><link=\"Vergilius\">Vergilius</link></color>?
           Es el abad m\xE1s reservado que he conocido hasta la fecha."
         type: 0
         typeString: 
@@ -2980,9 +2980,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Hoy ni le he visto, ha estado reunido con la priora <color="yellow"><link="Matthild">Matthild</link></color>
-
-          .'
+        value: Hoy ni le he visto, ha estado reunido con la priora <color="yellow"><link="Matthild">Matthild</link></color>.
         type: 0
         typeString: 
       - title: Sequence
@@ -3043,7 +3041,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "A\xFAn as\xED he tenido que retirarme, se ve que ten\xEDa cosas que
-          hablar con la priora Matthild."
+          hablar con la priora <color=\"yellow\"><link=\"Matthild\">Matthild</link></color>."
         type: 0
         typeString: 
       - title: Sequence
@@ -3102,8 +3100,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "No he olvidado su mirada cuando me vi\xF3 tomar un pan de centeno
-          de m\xE1s. "
+        value: "No olvidar\xE9 su mirada en el momento que me vi\xF3 tomar un pan
+          de centeno de m\xE1s. "
         type: 0
         typeString: 
       - title: Sequence
@@ -3280,8 +3278,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "No interrumpes nada. Solo estaba preguntando a Adso sobre su nuevo
-          t\xEDtulo de fraile."
+        value: "No interrumpes nada. Solo estaba preguntando a <color=\"yellow\"><link=\"Adso\">Adso</link></color>
+          sobre su nuevo t\xEDtulo de fraile."
         type: 0
         typeString: 
       - title: Sequence
@@ -3460,8 +3458,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Fui escogido por <color=\"yellow\"><link=\"Vergilius\">Vergilius</link></color>\r\n
-          y poco m\xE1s. A todo esto, \xBFbuscabas algo, hermana Trudperta?"
+        value: "Fui escogido por <color=\"yellow\"><link=\"Vergilius\">Vergilius</link></color>
+          y poco m\xE1s. A todo esto, \xBFbuscabas algo, hermana <color=\"yellow\"><link=\"Trudperta\">Trudperta</link></color>?"
         type: 0
         typeString: 
       - title: Sequence
@@ -3896,9 +3894,7 @@ MonoBehaviour:
       - title: Sequence
         value: 'Fade(stay,1);
 
-          LoadLevel(Act1_ConversacionVergilius_02)@1.5;
-
-          Continue()@2;'
+          LoadLevel(Act1_ConversacionVergilius_02)@1.5;'
         type: 0
         typeString: 
       conversationID: 1
@@ -3927,8 +3923,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 88.06682, y: 1721.9541}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 6.8805733, y: 1592.6796}
+    canvasZoom: 0.85000026
   - id: 2
     fields:
     - title: Title
@@ -4028,7 +4024,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530
+        x: 528.86365
         y: 20
         width: 480
         height: 30
@@ -4114,7 +4110,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Con Dios, fraile Adso.
+        value: Con Dios, fraile <color="yellow"><link="Adso">Adso</link></color>.
         type: 0
         typeString: 
       - title: Sequence
@@ -4229,7 +4225,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xBFFraile Adso?"
+        value: "\xBFFraile <color=\"yellow\"><link=\"Adso\">Adso</link></color>?"
         type: 0
         typeString: 
       - title: Sequence
@@ -4284,10 +4280,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Ah, perdonad, hermana <color="yellow"><link="Luzei">Luzei</link></color>
-
-          .
-          No os he escuchado, con Dios.'
+        value: Ah, perdonad, hermana <color="yellow"><link="Luzei">Luzei</link></color>.
+          No os he escuchado, con Dios.
         type: 0
         typeString: 
       - title: Sequence
@@ -4568,8 +4562,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Las confesiones son importantes, Adso. Solo pido que est\xE9is <b>atento</b>
-          a ellas."
+        value: "Las confesiones son importantes, <color=\"yellow\"><link=\"Adso\">Adso</link></color>.
+          Solo pido que est\xE9is <b>atento</b> a ellas."
         type: 0
         typeString: 
       - title: Sequence
@@ -4736,7 +4730,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Nos vemos pronto, Adso. Con Dios.
+        value: Nos vemos pronto, <color="yellow"><link="Adso">Adso</link></color>.
+          Con Dios.
         type: 0
         typeString: 
       - title: Sequence
@@ -4791,7 +4786,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Con Dios, hermana Luzei. '
+        value: 'Con Dios, hermana <color="yellow"><link="Luzei">Luzei</link></color>. '
         type: 0
         typeString: 
       - title: Sequence
@@ -4851,7 +4846,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "(Me pregunto como estar\xE1 <color=\"yellow\"><link=\"Gaudenz\">Gaudenz</link></color>
-          al respecto.)"
+          al respecto)."
         type: 0
         typeString: 
       - title: Sequence
@@ -4884,7 +4879,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 530
-        y: 120
+        y: 119.29578
         width: 480
         height: 30
     - id: 16
@@ -4986,7 +4981,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(Luzei_Sprite,false)
         type: 0
         typeString: 
       - title: Audio Files
@@ -5047,9 +5042,7 @@ MonoBehaviour:
       - title: Sequence
         value: 'Fade(stay,1);
 
-          LoadLevel(Act1_Confesiones)@1.5;
-
-          Continue()@2;'
+          LoadLevel(Act1_Confesiones)@1.5;'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -5063,13 +5056,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 18
-        destinationConversationID: 4
-        destinationDialogueID: 0
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -5082,8 +5069,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 368.74985}
-    canvasZoom: 0.64000034
+    canvasScrollPosition: {x: 104.71838, y: 327.27264}
+    canvasZoom: 0.88000023
   - id: 3
     fields:
     - title: Title
@@ -5670,8 +5657,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Ha ocurrido un accidente en las escaleras del convento, temo que
-          ha sido la hermana Trudperta. '
+        value: Ha ocurrido un accidente en las escaleras del convento, temo que ha
+          sido la hermana <color="yellow"><link="Trudperta">Trudperta</link></color>.
         type: 0
         typeString: 
       - title: Sequence
@@ -6071,7 +6058,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "La paciencia es virtud de un cristiano, Gaudenz, deberias pr\xE1cticarla."
+        value: "La paciencia es virtud de un cristiano, <color=\"yellow\"><link=\"Gaudenz\">Gaudenz</link></color>,
+          deberias pr\xE1cticarla."
         type: 0
         typeString: 
       - title: Sequence
@@ -6445,9 +6433,7 @@ MonoBehaviour:
       - title: Sequence
         value: 'Fade(stay,1);
 
-          LoadLevel(Act1_ConversacionLuzei_03)@1.5;
-
-          Continue()@2;'
+          LoadLevel(Act1_ConversacionLuzei_03)@1.5;'
         type: 0
         typeString: 
       conversationID: 3
@@ -6533,8 +6519,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 2.9851074, y: 708.95544}
-    canvasZoom: 0.66999984
+    canvasScrollPosition: {x: 152.73935, y: 728.7235}
+    canvasZoom: 0.9399997
   - id: 4
     fields:
     - title: Title
@@ -6661,8 +6647,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "Despu\xE9s de todo lo que ha sucedido seguro que la gente tendr\xE1
-          mucho que contarme."
+        value: "Despu\xE9s de todo lo que ha sucedido seguro que tendr\xE1n mucho
+          que contarme."
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -6670,7 +6656,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 
+        value: 14e5ab79-44ab-4d6e-8bf5-8e9665f81aa7
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 4
@@ -6689,7 +6675,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 162.5
-        y: 195
+        y: 194.41861
         width: 480
         height: 30
     - id: 4
@@ -6805,8 +6791,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 4}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1.5699995
   - id: 5
     fields:
     - title: Title
