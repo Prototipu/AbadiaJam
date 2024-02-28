@@ -403,6 +403,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 804292c383109d0418d0f268ea5d8fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1263178039 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9047556848851666461, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+  m_PrefabInstance: {fileID: 1616607470}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1360375efe462cd4ab520d1661206035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1602540354
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +449,70 @@ MonoBehaviour:
     onExecute:
       m_PersistentCalls:
         m_Calls: []
+  - guid: 1e6a687d-c28a-47e8-98a7-96fc8e161332
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3134706709079353785}
+          m_TargetAssemblyTypeName: FlipSprite, Assembly-CSharp
+          m_MethodName: Flip
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: a546a34b-7114-4880-a25d-b52f8fec2617
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3134706709079353785}
+          m_TargetAssemblyTypeName: FlipSprite, Assembly-CSharp
+          m_MethodName: Flip
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: e4290fb2-b575-4f62-a708-f1dc1ae4eeed
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3134706709079353785}
+          m_TargetAssemblyTypeName: FlipSprite, Assembly-CSharp
+          m_MethodName: Flip
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 7b50f4a3-9b25-4de6-ba69-2255d7a33bd7
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3134706709079353785}
+          m_TargetAssemblyTypeName: FlipSprite, Assembly-CSharp
+          m_MethodName: Flip
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1602540356
 Transform:
   m_ObjectHideFlags: 0
@@ -617,6 +692,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PixelCrushers.DialogueSystem.StandardUIContinueButtonFastForward, Assembly-CSharp-firstpass
       objectReference: {fileID: 0}
+    - target: {fileID: 1546333479416716379, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: typewriterEffect
+      value: 
+      objectReference: {fileID: 1263178039}
     - target: {fileID: 1546333479416730227, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: portraitName.m_textMeshProUGUI
       value: 
@@ -625,6 +704,10 @@ PrefabInstance:
       propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1546333479416798081, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: typewriterEffect
+      value: 
+      objectReference: {fileID: 1263178039}
     - target: {fileID: 1546333479419259109, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1028,7 +1111,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 263482031919741584, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.65
+      value: 0.096
       objectReference: {fileID: 0}
     - target: {fileID: 263482031919741584, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1074,11 +1157,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adso
       objectReference: {fileID: 0}
+    - target: {fileID: 5112710702603626783, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5112710702603626783, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 773978046239310227, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 3134706709079353785}
   m_SourcePrefab: {fileID: 100100000, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+--- !u!1 &3134706709079353784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 773978046239310227, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+  m_PrefabInstance: {fileID: 3134706709079353783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3134706709079353785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3134706709079353784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8197a3fe2c66c72449a0d7f36f63a3f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4797341424308522101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1146,7 +1257,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2354362809562806232, guid: fb934169aaa80454880d825f2000792f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.39
+      value: 1.59
       objectReference: {fileID: 0}
     - target: {fileID: 2354362809562806232, guid: fb934169aaa80454880d825f2000792f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1183,6 +1294,14 @@ PrefabInstance:
     - target: {fileID: 2354362809562806232, guid: fb934169aaa80454880d825f2000792f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498235950581362884, guid: fb934169aaa80454880d825f2000792f, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498235950581362884, guid: fb934169aaa80454880d825f2000792f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8958868261318424066, guid: fb934169aaa80454880d825f2000792f, type: 3}
       propertyPath: m_Name

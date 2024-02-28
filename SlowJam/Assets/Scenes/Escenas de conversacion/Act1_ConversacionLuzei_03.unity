@@ -987,7 +987,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca55201633b97d3408f439eb84ecb249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueEntrySceneEvents: []
+  dialogueEntrySceneEvents:
+  - guid: 15da9b6f-3734-458f-84d9-ca73d8a802a2
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3134706709079353785}
+          m_TargetAssemblyTypeName: FlipSprite, Assembly-CSharp
+          m_MethodName: Flip
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 1bf70194-52f4-4d13-ba6e-a516d39000f4
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3134706709079353785}
+          m_TargetAssemblyTypeName: FlipSprite, Assembly-CSharp
+          m_MethodName: Flip
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1602540356
 Transform:
   m_ObjectHideFlags: 0
@@ -1010,7 +1042,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602540354}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
   m_Name: 
@@ -1464,7 +1496,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 263482031919741584, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.65
+      value: 4.42
       objectReference: {fileID: 0}
     - target: {fileID: 263482031919741584, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1510,11 +1542,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adso
       objectReference: {fileID: 0}
+    - target: {fileID: 5112710702603626783, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5112710702603626783, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 773978046239310227, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 3134706709079353785}
   m_SourcePrefab: {fileID: 100100000, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+--- !u!1 &3134706709079353784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 773978046239310227, guid: 5b4c3b08652adbf41bccd102719381f6, type: 3}
+  m_PrefabInstance: {fileID: 3134706709079353783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3134706709079353785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3134706709079353784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8197a3fe2c66c72449a0d7f36f63a3f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4579640226133143833
 PrefabInstance:
   m_ObjectHideFlags: 0
