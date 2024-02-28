@@ -1,0 +1,71 @@
+{
+  "passages": [
+    {
+      "text": "Hola buenos dias\n[[Que te pasa tonto]]\n[[Hola que tal]]",
+      "links": [
+        {
+          "name": "Que te pasa tonto",
+          "link": "Que te pasa tonto",
+          "pid": "2"
+        },
+        {
+          "name": "Hola que tal",
+          "link": "Hola que tal",
+          "pid": "3"
+        }
+      ],
+      "name": "Pasaje sin tÃ­tulo",
+      "pid": "1",
+      "position": {
+        "x": "675",
+        "y": "250"
+      }
+    },
+    {
+      "text": "Pues que te meto\n[[Convergence]]",
+      "links": [
+        {
+          "name": "Convergence",
+          "link": "Convergence",
+          "pid": "4"
+        }
+      ],
+      "name": "Que te pasa tonto",
+      "pid": "2",
+      "position": {
+        "x": "675",
+        "y": "375"
+      }
+    },
+    {
+      "text": "Buenos dias otra vez\n[[Convergence]]",
+      "links": [
+        {
+          "name": "Convergence",
+          "link": "Convergence",
+          "pid": "4"
+        }
+      ],
+      "name": "Hola que tal",
+      "pid": "3",
+      "position": {
+        "x": "800",
+        "y": "375"
+      }
+    },
+    {
+      "text": "okok",
+      "name": "Convergence",
+      "pid": "4",
+      "position": {
+        "x": "750",
+        "y": "525"
+      }
+    }
+  ],
+  "name": "La abadia del crimen",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.8.1",
+  "ifid": "0C569B5A-3A07-4B31-B227-4F2E10E56411"
+}

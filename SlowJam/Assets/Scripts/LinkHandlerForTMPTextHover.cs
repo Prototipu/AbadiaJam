@@ -14,7 +14,9 @@ namespace ChristinaCreatesGames.Typography.TooltipForTMP
 
         private int _currentlyActiveLinkedElement;
 
-        public delegate void HoverOnLinkEvent(string keyword, Vector3 mousePos);
+        private bool _hovering = false;
+
+        public delegate void HoverOnLinkEvent(string keyword, Vector3 mousePos, string X);
         public static event HoverOnLinkEvent OnHoverOnLinkEvent;
 
         public delegate void CloseTooltipEvent();
@@ -41,27 +43,35 @@ namespace ChristinaCreatesGames.Typography.TooltipForTMP
         {
             // For new input system
             Vector3 mousePosition = Mouse.current.position.ReadValue();
-            
+
             // For old input system use this, rest stays the same:
             // Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
-            
+
             bool isIntersectingRectTransform = TMP_TextUtilities.IsIntersectingRectTransform(_textBoxRectTransform, mousePosition, _cameraToUse);
-            
+
             /*if (!isIntersectingRectTransform)
                 return;*/
 
             int intersectingLink = TMP_TextUtilities.FindIntersectingLink(_tmpTextBox, mousePosition, _cameraToUse);
 
-            if (!isIntersectingRectTransform || _currentlyActiveLinkedElement != intersectingLink)
+            if ((!isIntersectingRectTransform || _currentlyActiveLinkedElement != intersectingLink) && _hovering)
+            {
                 OnCloseTooltipEvent?.Invoke();
-            
+                _hovering = false;
+            }
+
             if (intersectingLink == -1)
                 return;
 
-            TMP_LinkInfo linkInfo = _tmpTextBox.textInfo.linkInfo[intersectingLink];
-            
-            OnHoverOnLinkEvent?.Invoke(linkInfo.GetLinkID(), mousePosition);
-            _currentlyActiveLinkedElement = intersectingLink;
+            if (!_hovering)
+            {
+                TMP_LinkInfo linkInfo = _tmpTextBox.textInfo.linkInfo[intersectingLink];
+
+                OnHoverOnLinkEvent?.Invoke(linkInfo.GetLinkID(), mousePosition, gameObject.name);
+                _currentlyActiveLinkedElement = intersectingLink;
+
+                _hovering = true;
+            }
         }
     }
-}   
+}
