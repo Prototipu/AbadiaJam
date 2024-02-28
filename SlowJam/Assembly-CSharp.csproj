@@ -84,6 +84,7 @@
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Chest.cs" />
     <Compile Include="Assets\Scripts\LinkHandlerHoverName.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
+    <Compile Include="Assets\probando.cs" />
     <Compile Include="Assets\Scripts\ContinueFastForward.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs" />
     <Compile Include="Assets\Scripts\CartelesManager.cs" />

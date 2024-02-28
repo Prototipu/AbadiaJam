@@ -3907,19 +3907,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: 
+        value: '   '
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '   '
         type: 0
         typeString: 
       - title: Sequence
@@ -3927,13 +3927,19 @@ MonoBehaviour:
 
           SetActive(BotonContinuarNPC,false);
 
-          Fade(stay,1);
+          Fade(stay,0.5);
 
-          LoadLevel(Act1_ConversacionVergilius_02)@1.5;
+          LoadLevel(Act1_ConversacionVergilius_02)@1;
 
-          SetActive(BotonContinuarJugador,true)@2;
+          SetActive(BotonContinuarJugador,true)@1.5;
 
-          SetActive(BotonContinuarNPC,true)@2;'
+          SetActive(BotonContinuarNPC,true)@1.5;
+
+          Continue()@1.5;'
+        type: 0
+        typeString: 
+      - title: Response Menu Sequence
+        value: 
         type: 0
         typeString: 
       conversationID: 1
@@ -3957,13 +3963,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530
-        y: 2020
+        x: 528.8636
+        y: 2029.0911
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 296.63834, y: 0}
-    canvasZoom: 0.85000044
+    canvasScrollPosition: {x: 247.0915, y: 1774.7303}
+    canvasZoom: 0.8800005
   - id: 2
     fields:
     - title: Title
@@ -4037,9 +4043,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(in,1);
-
-          Continue()@1.5;'
+        value: Fade(in,0.5);
         type: 0
         typeString: 
       conversationID: 2
@@ -5123,7 +5127,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 163.73608, y: 416.4834}
+    canvasScrollPosition: {x: 314.28552, y: 12.087952}
     canvasZoom: 0.9100002
   - id: 3
     fields:
@@ -6414,7 +6418,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -6426,7 +6430,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '   '
         type: 0
         typeString: 
       - title: Sequence
@@ -6434,13 +6438,15 @@ MonoBehaviour:
 
           SetActive(BotonContinuarNPC,false);
 
-          Fade(stay,1);
+          Fade(stay,0.5);
 
-          LoadLevel(Act1_ConversacionLuzei_03)@1.5;
+          LoadLevelAct1_ConversacionLuzei_03)@1;
 
-          SetActive(BotonContinuarJugador,true)@2;
+          SetActive(BotonContinuarJugador,true)@1.5;
 
-          SetActive(BotonContinuarNPC,true)@2;'
+          SetActive(BotonContinuarNPC,true)@1.5;
+
+          Continue()@1.5;'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -6468,8 +6474,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530.9434
-        y: 1146.4153
+        x: 533.1412
+        y: 1125.5361
         width: 480
         height: 30
     - id: 23
@@ -6499,7 +6505,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(in,1);
+        value: 'Fade(in,0.5);
 
 '
         type: 0
@@ -6585,8 +6591,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 252.68987, y: 786.9343}
-    canvasZoom: 1.0599995
+    canvasScrollPosition: {x: 211.51668, y: 418.57166}
+    canvasZoom: 0.6999997
   - id: 4
     fields:
     - title: Title
@@ -13679,7 +13685,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'LoadLevel(Act3_Conversacion_01);
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,0.5);
+
+          LoadLevel(Act3_Conversacion_01);
+
+          SetActive(BotonContinuarJugador,true)@1.5;
+
+          SetActive(BotonContinuarNPC,true)@1.5;
+
+          Continue()@1.5;
 
 '
         type: 0
@@ -13714,7 +13732,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 1041.6621, y: 0}
+    canvasScrollPosition: {x: 908.70764, y: 0}
     canvasZoom: 0.88000005
   - id: 10
     fields:
@@ -14066,11 +14084,25 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '   '
         type: 0
         typeString: 
       - title: Sequence
-        value: LoadLevel(Act2_ConversacionLuzei_01);
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,0.5);
+
+          LoadLevel(Act2_ConversacionLuzei_01);
+
+          SetActive(BotonContinuarJugador,true)@1.5;
+
+          SetActive(BotonContinuarNPC,true)@1.5;
+
+          Continue()@1.5;
+
+'
         type: 0
         typeString: 
       conversationID: 10
@@ -14094,8 +14126,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 320
+        x: 27.321442
+        y: 279.82144
         width: 480
         height: 30
     entryGroups: []
@@ -14174,9 +14206,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'Fade(in,1);
+        value: 'Fade(in,0.5);
 
-          Continue()@1.5;'
+          Continue()@1;'
         type: 0
         typeString: 
       conversationID: 11
@@ -16414,11 +16446,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -16426,7 +16458,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '  '
         type: 0
         typeString: 
       - title: Sequence
@@ -16473,8 +16505,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 158.19542, y: 1036.8099}
-    canvasZoom: 0.8499995
+    canvasScrollPosition: {x: 280.28427, y: 1381.9159}
+    canvasZoom: 0.9399994
   - id: 12
     fields:
     - title: Title
@@ -18224,11 +18256,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -18236,7 +18268,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '  '
         type: 0
         typeString: 
       - title: Sequence
@@ -18281,7 +18313,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 10.227295, y: 827.6914}
+    canvasScrollPosition: {x: 32.95453, y: 893.1819}
     canvasZoom: 0.8799999
   - id: 13
     fields:
@@ -20268,7 +20300,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '  '
         type: 0
         typeString: 
       - title: Sequence
@@ -20313,7 +20345,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 2.1276855, y: 883.5427}
+    canvasScrollPosition: {x: 0, y: 350.56393}
     canvasZoom: 0.93999994
   - id: 14
     fields:
@@ -27353,7 +27385,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '   '
         type: 0
         typeString: 
       - title: Sequence
@@ -27398,7 +27430,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 219.9104, y: 653.6583}
+    canvasScrollPosition: {x: 152.83716, y: 903.65845}
     canvasZoom: 0.8200001
   - id: 18
     fields:
@@ -29148,11 +29180,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 4
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 4
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -29160,7 +29192,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 
+        value: '   '
         type: 0
         typeString: 
       - title: Sequence
@@ -29170,7 +29202,7 @@ MonoBehaviour:
 
           Fade(stay,1);
 
-          LoadLevel(Act3_Resolucion_03);
+          LoadLevel(Act3_Resolucion_03)@1.2;
 
           SetActive(BotonContinuarJugador,true)@2;
 
@@ -29200,7 +29232,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 277.02728
+        x: 275.7614
         y: 1471.064
         width: 480
         height: 30
@@ -32545,7 +32577,19 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: LoadLevel(MenuPrincipal)
+        value: 'SetActive(BotonContinuarJugador,false);
+
+          SetActive(BotonContinuarNPC,false);
+
+          Fade(stay,1);
+
+          LoadLevel(MenuPrincipal)@1;
+
+          SetActive(BotonContinuarJugador,true)@2;
+
+          SetActive(BotonContinuarNPC,true)@2;
+
+          Continue()@2.1;'
         type: 0
         typeString: 
       conversationID: 19
@@ -32563,13 +32607,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 530
+        x: 531.21954
         y: 2070
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.55
+    canvasScrollPosition: {x: 323.11755, y: 1598.5586}
+    canvasZoom: 0.81999975
   syncInfo:
     syncActors: 0
     syncItems: 0
