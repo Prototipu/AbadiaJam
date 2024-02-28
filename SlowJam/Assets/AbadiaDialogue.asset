@@ -3968,8 +3968,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 247.0915, y: 1774.7303}
-    canvasZoom: 0.8800005
+    canvasScrollPosition: {x: 195.25584, y: 0}
+    canvasZoom: 0.91000044
   - id: 2
     fields:
     - title: Title
@@ -5127,7 +5127,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 314.28552, y: 12.087952}
+    canvasScrollPosition: {x: 319.78003, y: 0}
     canvasZoom: 0.9100002
   - id: 3
     fields:
@@ -6440,7 +6440,7 @@ MonoBehaviour:
 
           Fade(stay,0.5);
 
-          LoadLevelAct1_ConversacionLuzei_03)@1;
+          LoadLevel(Act1_ConversacionLuzei_03)@1;
 
           SetActive(BotonContinuarJugador,true)@1.5;
 
@@ -6591,18 +6591,18 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 211.51668, y: 418.57166}
-    canvasZoom: 0.6999997
+    canvasScrollPosition: {x: 266.22784, y: 482.2191}
+    canvasZoom: 0.93999946
   - id: 4
     fields:
     - title: Title
       value: PrimeraConversacionConfesiones
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Actor
       value: 1
       type: 5
@@ -6668,7 +6668,13 @@ MonoBehaviour:
       - title: Sequence
         value: 'Fade(in,1);
 
-          Continue()@1.5;'
+          Continue()@1.5;
+
+          SetActive(Imagen_Tiempo,true)'
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: 754ab840-9b6d-4a86-95f2-076dcf423afd
         type: 0
         typeString: 
       conversationID: 4
@@ -6863,7 +6869,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 17.322815, y: 0}
     canvasZoom: 1.2699997
   - id: 5
     fields:
@@ -6941,6 +6947,10 @@ MonoBehaviour:
         value: None()
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 021cfe29-d6bd-41f1-8adc-f4b00355e429
+        type: 0
+        typeString: 
       conversationID: 5
       isRoot: 0
       isGroup: 0
@@ -9788,8 +9798,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 768.89185, y: 1563.7616}
-    canvasZoom: 0.84999967
+    canvasScrollPosition: {x: 1199.5962, y: 0}
+    canvasZoom: 0.9099996
   - id: 6
     fields:
     - title: Title
@@ -13436,7 +13446,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 138.4546, y: 392.79034}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 1.2699997
   - id: 9
     fields:
@@ -14184,11 +14194,11 @@ MonoBehaviour:
       - title: Title
         value: START
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -14200,17 +14210,21 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 'Fade(in,0.5);
 
           Continue()@1;'
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 3da5994a-722d-40dc-80db-5ddbc9523fa1
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 11
       isRoot: 0
       isGroup: 0
@@ -14263,6 +14277,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
         value: 
         type: 0
         typeString: 
@@ -15985,7 +16003,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 528.90106
+        x: 527.63525
         y: 1170
         width: 480
         height: 30
@@ -16505,8 +16523,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 280.28427, y: 1381.9159}
-    canvasZoom: 0.9399994
+    canvasScrollPosition: {x: 117.03641, y: 0}
+    canvasZoom: 0.78999954
   - id: 12
     fields:
     - title: Title
@@ -20425,6 +20443,10 @@ MonoBehaviour:
           Continue()@1.5;'
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 0bda553a-46c0-4142-8aa8-ab0fa4dccc1a
+        type: 0
+        typeString: 
       conversationID: 14
       isRoot: 0
       isGroup: 0
@@ -23286,8 +23308,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 154.11786, y: 1190.924}
-    canvasZoom: 0.8499995
+    canvasScrollPosition: {x: 84.75407, y: 0}
+    canvasZoom: 0.84999955
   - id: 16
     fields:
     - title: Title
@@ -25712,6 +25734,10 @@ MonoBehaviour:
           Continue()@1.5;'
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 993f21ed-b49c-4607-a917-fe134b92854b
+        type: 0
+        typeString: 
       conversationID: 17
       isRoot: 0
       isGroup: 0
@@ -25765,6 +25791,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
         value: 
         type: 0
         typeString: 
@@ -27430,7 +27460,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 152.83716, y: 903.65845}
+    canvasScrollPosition: {x: 67.47142, y: 0}
     canvasZoom: 0.8200001
   - id: 18
     fields:
@@ -29237,7 +29267,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 25.316467, y: 969.6201}
+    canvasScrollPosition: {x: 0, y: 29.11377}
     canvasZoom: 0.7900001
   - id: 19
     fields:
@@ -29290,11 +29320,11 @@ MonoBehaviour:
       - title: Title
         value: START
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 4
         type: 5
@@ -29306,17 +29336,21 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 'Fade(in,1);
 
           Continue()@1.5;'
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 6b72ab75-dba5-4111-bf10-8b4bd363d6e4
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 19
       isRoot: 0
       isGroup: 0
@@ -29347,11 +29381,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -29363,15 +29397,19 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Buenas noches Abad.
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
       conversationID: 19
       isRoot: 0
       isGroup: 0
@@ -32612,7 +32650,7 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 323.11755, y: 1598.5586}
+    canvasScrollPosition: {x: 86.53186, y: 0}
     canvasZoom: 0.81999975
   syncInfo:
     syncActors: 0
