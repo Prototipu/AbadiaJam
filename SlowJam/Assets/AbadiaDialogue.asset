@@ -6999,7 +6999,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Buenas tardes Fraile Adso, vengo a confesarme
+        value: Buenas tardes Fraile Adso, vengo a confesarme.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -8129,7 +8129,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: "Ella ten\xEDa la posibilidad de gastar mucho tiempo de sus quehaceres
-          en la biblioteca, con la compa\xF1\xEDa de <color=\"yellow\"><link=\"Ruppert\">Ruppert</link></color>\r."
+          en la biblioteca, con la compa\xF1\xEDa de <color=\"yellow\"><link=\"Ruppert\">Ruppert</link></color>."
         type: 0
         typeString: 
       - title: Sequence
@@ -9798,8 +9798,8 @@ MonoBehaviour:
         width: 480
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 1199.5962, y: 0}
-    canvasZoom: 0.9099996
+    canvasScrollPosition: {x: 922.5912, y: 1147.9152}
+    canvasZoom: 0.7599998
   - id: 6
     fields:
     - title: Title
